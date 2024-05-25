@@ -16249,7 +16249,7 @@ LOT_ideas = {
 	}
 	
 	bonus = {
-		ae_impact = -0.1
+		global_trade_goods_size_modifier = 0.15
 	}
 	
 	trigger = {
@@ -16261,7 +16261,7 @@ LOT_ideas = {
 		prestige_decay = -0.01
 	}
 	lot_glory_of_charlemagne = {
-		land_morale = 0.15
+		land_morale = 0.10
 	}
 	lot_dutch_cities = {
 		trade_efficiency = 0.1
@@ -16274,10 +16274,10 @@ LOT_ideas = {
 		advisor_pool = 1
 	}
 	lot_land_of_abbeys = {
-		missionaries = 1
+		tolerance_heretic = 2
 	}
 	lot_european_empire = {
-		core_creation = -0.2
+		discipline = 0.05
 	}
 }
 
