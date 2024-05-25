@@ -84,7 +84,7 @@ zambezi = {
 patagonia = { 
 	location = 2868
 	color = { 
-		30 167 227 
+		24 188 234 
 	}
 	outgoing = { 
 		name = "laplata"
@@ -112,7 +112,7 @@ patagonia = {
 amazonas_node = { 
 	location = 2935
 	color = { 
-		195 99 226 
+		124 17 143 
 	}
 	outgoing = { 
 		name = "brazil"
@@ -152,7 +152,7 @@ amazonas_node = {
 rio_grande = { 
 	location = 2499
 	color = { 
-		196 21 67 
+		190 141 47 
 	}
 	outgoing = { 
 		name = "mississippi_river"
@@ -226,7 +226,7 @@ james_bay = {
 california = { 
 	location = 2021
 	color = { 
-		75 193 10 
+		155 224 41 
 	}
 	outgoing = { 
 		name = "mexico"
@@ -326,7 +326,7 @@ girin = {
 mississippi_river = { 
 	location = 1507
 	color = { 
-		52 114 200 
+		119 213 223 
 	}
 	outgoing = { 
 		name = "carribean_trade"
@@ -439,7 +439,7 @@ lhasa = {
 	location = 677
 	inland = yes
 	color = { 
-		167 115 157 
+		167 208 74 
 	}
 	outgoing = { 
 		name = "lahore"
@@ -479,7 +479,7 @@ chengdu = {
 	location = 679
 	inland = yes
 	color = { 
-		162 155 126 
+		124 238 189 
 	}
 	outgoing = { 
 		name = "canton"
@@ -580,7 +580,7 @@ gulf_of_siam = {
 canton = { 
 	location = 1371
 	color = { 
-		32 200 49 
+		34 220 237 
 	}
 	outgoing = { 
 		name = "malacca"
@@ -619,7 +619,7 @@ canton = {
 philippines = { 
 	location = 1397
 	color = { 
-		97 183 236 
+		66 82 134 
 	}
 	outgoing = { 
 		name = "the_moluccas"
@@ -649,7 +649,7 @@ philippines = {
 cuiaba = { 
 	location = 800
 	color = { 
-		217 13 203 
+		217 105 179 
 	}
 	outgoing = { 
 		name = "laplata"
@@ -689,7 +689,7 @@ cuiaba = {
 lima = { 
 	location = 809
 	color = { 
-		71 231 190 
+		237 47 48 
 	}
 	outgoing = { 
 		name = "panama"
@@ -758,7 +758,7 @@ polynesia_node = {
 australia = { 
 	location = 1411
 	color = { 
-		145 115 19 
+		111 208 115 
 	}
 	outgoing = { 
 		name = "the_moluccas"
@@ -780,7 +780,7 @@ australia = {
 nippon = { 
 	location = 1376
 	color = { 
-		129 102 102 
+		155 229 78 
 	}
 	outgoing = { 
 		name = "hangzhou"
@@ -804,7 +804,7 @@ nippon = {
 hangzhou = { 
 	location = 684
 	color = { 
-		127 210 203 
+		100 180 144 
 	}
 	outgoing = { 
 		name = "xian"
@@ -844,7 +844,7 @@ xian = {
 	location = 700
 	inland = yes
 	color = { 
-		219 75 146 
+		154 222 131 
 	}
 	outgoing = { 
 		name = "beijing"
@@ -874,7 +874,7 @@ xian = {
 beijing = { 
 	location = 4233
 	color = { 
-		203 66 179 
+		225 136 231 
 	}
 	outgoing = { 
 		name = "yumen"
@@ -918,7 +918,7 @@ siberia = {
 	location = 1064
 	inland = yes
 	color = { 
-		21 195 38 
+		128 98 210 
 	}
 	outgoing = { 
 		name = "kazan"
@@ -951,7 +951,7 @@ yumen = {
 	location = 707
 	inland = yes
 	color = { 
-		45 86 90 
+		215 129 99 
 	}
 	outgoing = { 
 		name = "samarkand"
@@ -975,7 +975,7 @@ yumen = {
 malacca = { 
 	location = 1361
 	color = { 
-		214 77 46 
+		29 144 167 
 	}
 	outgoing = { 
 		name = "ganges_delta"
@@ -1009,7 +1009,7 @@ malacca = {
 ganges_delta = { 
 	location = 1343
 	color = { 
-		94 80 142 
+		54 181 232 
 	}
 	outgoing = { 
 		name = "comorin_cape"
@@ -1271,7 +1271,7 @@ ethiopia = {
 	location = 2772
 	inland = yes
 	color = { 
-		61 192 71 
+		21 225 28 
 	}
 	outgoing = { 
 		name = "alexandria"
@@ -1303,7 +1303,7 @@ ethiopia = {
 gulf_of_aden = { 
 	location = 4346
 	color = { 
-		147 41 82 
+		46 215 137 
 	}
 	outgoing = { 
 		name = "zanzibar"
@@ -1345,7 +1345,7 @@ gulf_of_aden = {
 hormuz = { 
 	location = 1334
 	color = { 
-		22 107 204 
+		225 72 48 
 	}
 	outgoing = { 
 		name = "basra"
@@ -1387,7 +1387,7 @@ zanzibar = {
 cape_of_good_hope = { 
 	location = 1460
 	color = { 
-		196 165 37 
+		161 231 200 
 	}
 	outgoing = { 
 		name = "ivory_coast"
@@ -1406,7 +1406,7 @@ cape_of_good_hope = {
 basra = { 
 	location = 1335
 	color = { 
-		161 14 111 
+		235 60 200 
 	}
 	outgoing = { 
 		name = "aleppo"
@@ -1438,7 +1438,7 @@ samarkand = {
 	location = 454
 	inland = yes
 	color = { 
-		35 193 214 
+		57 83 21 
 	}
 	outgoing = { 
 		name = "persia"
@@ -1549,7 +1549,7 @@ alexandria = {
 		}
 	}
 	outgoing = { 
-		name = "venice"
+		name = "napoli"
 		path = { 
 			1315 1318 145 1773 144 143 1310 1309 1308 
 		}
@@ -1580,7 +1580,7 @@ astrakhan = {
 	location = 464
 	inland = yes
 	color = { 
-		196 131 180 
+		146 127 163 
 	}
 	outgoing = { 
 		name = "kazan"
@@ -1665,15 +1665,16 @@ constantinople = {
 		1320 149 151 1764 325 328 2299 2304 150 159
 		1765 2746 2750 329 1846 2300 4314 4315 316 317
 		2296 322 1848 4308 4311 318 319 2297 2298 4309
-		326 4312 4313 164 320 1319 2348 3003 4700 4703
-		4704 4705 4706 4779 
+		326 4312 4313 320 1319 4703 4704 4705 4706 4779
+		3001 4702 148 1853 144 147 4699 142 4698 4780
+		146 3003 4701 1773 145 2348 4700 164 163 
 	}
 }
 kiev = { 
 	location = 280
 	inland = yes
 	color = { 
-		236 167 200 
+		83 238 95 
 	}
 	outgoing = { 
 		name = "novgorod"
@@ -1705,7 +1706,7 @@ kazan = {
 	location = 1082
 	inland = yes
 	color = { 
-		16 105 63 
+		196 236 87 
 	}
 	outgoing = { 
 		name = "novgorod"
@@ -1755,7 +1756,7 @@ novgorod = {
 laplata = { 
 	location = 1536
 	color = { 
-		148 65 153 
+		103 29 185 
 	}
 	outgoing = { 
 		name = "brazil"
@@ -1776,7 +1777,7 @@ laplata = {
 brazil = { 
 	location = 1531
 	color = { 
-		49 117 219 
+		100 40 42 
 	}
 	outgoing = { 
 		name = "ivory_coast"
@@ -1799,7 +1800,7 @@ timbuktu = {
 	location = 1132
 	inland = yes
 	color = { 
-		12 57 12 
+		33 43 236 
 	}
 	outgoing = { 
 		name = "safi"
@@ -1831,7 +1832,7 @@ timbuktu = {
 ivory_coast = { 
 	location = 1466
 	color = { 
-		17 116 57 
+		53 40 147 
 	}
 	outgoing = { 
 		name = "carribean_trade"
@@ -1919,9 +1920,9 @@ tunis = {
 	}
 }
 ragusa = { 
-	location = 137
+	location = 1774
 	color = { 
-		168 86 127 
+		133 172 218 
 	}
 	outgoing = { 
 		name = "pest"
@@ -1933,7 +1934,7 @@ ragusa = {
 		}
 	}
 	outgoing = { 
-		name = "venice"
+		name = "napoli"
 		path = { 
 			136 1308 
 		}
@@ -1951,10 +1952,10 @@ ragusa = {
 		}
 	}
 	members = { 
-		137 138 139 140 141 142 143 144 147 1766
-		1827 1831 1853 3000 3002 3001 4174 4175 4176 131
-		148 1828 136 1826 4239 145 146 163 1773 4702
-		4699 4698 4701 4750 4752 4753 4754 4755 4757 4780
+		137 138 139 140 141 143 1766 1827 1831 3000
+		3002 4174 4175 4176 131 136 1826 4239 4750 4753
+		4754 4755 4757 1774 111 4729 112 4738 1769 129
+		4751 130 4752 152 4173 1767 4756 1828 
 	}
 }
 safi = { 
@@ -2004,14 +2005,14 @@ pest = {
 	members = { 
 		135 153 1864 4126 4240 155 1953 1954 4125 154
 		162 1318 1772 4236 157 158 1952 4127 156 1951
-		4128 152 1767 4173 4756 160 161 2998 4531 4532
+		4128 160 161 2998 4531 4532 
 	}
 }
 krakow = { 
 	location = 262
 	inland = yes
 	color = { 
-		142 203 143 
+		234 127 33 
 	}
 	outgoing = { 
 		name = "wien"
@@ -2054,7 +2055,7 @@ wien = {
 		220 220 220 
 	}
 	outgoing = { 
-		name = "venice"
+		name = "napoli"
 		path = { 
 			132 128 1769 1308 4738 
 		}
@@ -2176,7 +2177,7 @@ rheinland = {
 panama = { 
 	location = 835
 	color = { 
-		99 182 27 
+		63 86 155 
 	}
 	outgoing = { 
 		name = "carribean_trade"
@@ -2198,7 +2199,7 @@ panama = {
 carribean_trade = { 
 	location = 1516
 	color = { 
-		155 20 215 
+		192 124 177 
 	}
 	outgoing = { 
 		name = "chesapeake_bay"
@@ -2398,8 +2399,8 @@ bordeaux = {
 	}
 	members = { 
 		1276 190 195 199 169 170 171 172 4384 194
-		198 4112 180 4111 4386 4387 173 209 210 174
-		175 176 177 178 4389 2989 4694 4697 4777 1275
+		198 4112 180 4111 4386 4387 173 174 175 176
+		177 178 4389 4694 4697 4777 1275 
 	}
 }
 sevilla = { 
@@ -2451,7 +2452,7 @@ champagne = {
 	}
 	members = { 
 		182 183 185 4388 179 184 4776 181 186 4390
-		187 188 189 165 1867 1871 167 168 4385 1879
+		187 188 189 165 1867 1871 91 93 94 1866
 		191 192 193 1877 4392 203 204 205 4719 4720
 		4721 4764 4766 
 	}
@@ -2473,7 +2474,7 @@ valencia = {
 	members = { 
 		1295 197 212 213 2987 2988 220 1750 4549 4550
 		211 214 2990 4557 333 4559 4560 196 200 2753
-		4391 4695 
+		4391 4695 210 209 2989 
 	}
 }
 genua = { 
@@ -2483,23 +2484,22 @@ genua = {
 		218 215 56 
 	}
 	members = { 
-		1298 124 125 126 2982 115 116 117 2978 2980
-		123 1934 2984 101 102 2992 103 1875 2981 127
-		1247 2986 201 202 2991 4696 4727 4735 4736 4737
-		118 2976 4731 4732 121 2983 4734 104 1862 2979
-		4728 4740 
+		1298 115 116 117 2978 2980 101 102 2992 103
+		1875 2981 127 1247 2986 201 202 2991 4696 4727
+		4735 104 1862 2979 4728 4740 114 4730 113 106
+		105 109 108 107 4739 
 	}
 }
-venice = { 
-	location = 1308
+napoli = { 
+	location = 1304
 	end = yes
 	color = { 
-		54 167 156 
+		128 0 255 
 	}
 	members = { 
-		105 106 107 108 109 111 112 113 114 119
-		120 122 129 130 1308 1769 1774 1933 2977 2985
-		4729 4730 4733 4738 4739 4751 
+		119 120 122 1308 1933 2977 2985 4733 1304 1934
+		2983 4734 121 4732 118 4731 2976 2984 123 124
+		125 4736 2982 4737 126 
 	}
 }
 english_channel = { 
@@ -2509,7 +2509,7 @@ english_channel = {
 		220 138 57 
 	}
 	members = { 
-		1269 1270 1271 1866 91 94 93 87 88 89
+		1269 1270 1271 167 168 1879 4385 87 88 89
 		1743 241 242 4366 4369 245 4367 4368 4785 239
 		240 4372 243 1860 1861 4370 4376 233 234 4130
 		4373 4374 235 236 237 238 4371 92 95 98
