@@ -2,7 +2,6 @@ country_decisions = {
 
 Create_the_calais_strait = {
 	potential = { ##requires to see the decision
-		tag = ENG
 		NOT = { has_country_flag = Calais_strait_built }
 	}
 	allow = { ## requirements to enact
@@ -20,7 +19,6 @@ Create_the_calais_strait = {
 
 Destroy_the_calais_strait = {
 	potential = { ##requires to see the decision
-		tag = ENG
 		has_country_flag = Calais_strait_built
 		owns_core_province = 235 # Kent
 		owns_core_province = 87 # Calais
