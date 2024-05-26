@@ -1,0 +1,42 @@
+country_decisions = {
+
+Create_the_calais_strait = {
+	potential = { ##requires to see the decision
+		tag = ENG
+		NOT = { has_country_flag = Calais_strait_built }
+	}
+	allow = { ## requirements to enact
+		owns_core_province = 235 # Kent
+		owns_core_province = 87 # Calais
+	}
+	effect = { ##what happens
+		add_prestige = 1
+		set_country_flag = Calais_strait_built
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+Destroy_the_calais_strait = {
+	potential = { ##requires to see the decision
+		tag = ENG
+		has_country_flag = Calais_strait_built
+		owns_core_province = 235 # Kent
+		owns_core_province = 87 # Calais
+		NOT = { has_country_flag = Calais_strait_destroyed }
+	}
+	allow = { ## requirements to enact
+		owns_core_province = 235 # Kent
+		owns_core_province = 87 # Calais
+	}
+	effect = { ##what happens
+		add_prestige = 2
+		set_country_flag = Calais_strait_destroyed
+		remove_country_flag = Calais_strait_built
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}
+}
