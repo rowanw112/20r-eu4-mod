@@ -1,0 +1,18 @@
+namespace = playerpowers
+
+country_event = {
+	id = playerpowers.1
+	title = playerpowers.1.t
+	desc = playerpowers.1.d
+	picture = NEGOTIATIONS_LUBLIN_eventPicture
+	
+	major = yes
+	major_trigger = {
+		prestige = 50
+	}
+	
+	option = {
+		name = test.1.a
+		add_prestige = 50
+	}
+}

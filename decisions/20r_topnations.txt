@@ -1,0 +1,33 @@
+country_decisions = {
+
+# decision_template = {
+# 	potential = { # requirements to see the decision
+		
+# 	}
+# 	allow = { # requirements to enact
+
+# 	}
+# 	effect = { # what happens
+
+# 	}
+# 	ai_will_do = {
+# 		factor = 1 # 1 = AI will use when available, 0 = AI will never use it
+# 	 	modifier = { # can add a modifier for when the AI can take the decision, such as min prestige 50
+# 			factor = 0 # it is a factor of 0 until the prestige above 50
+# 			NOT = { prestige = 50 }
+# 	}
+# 	}
+# }
+
+Top_nations = {
+    potential = { # requirements to see the decision
+    }
+    allow = { # requirements to enact
+    }
+    effect = { # what happens when you activate the decision
+    }
+    ai_will_do = {
+        factor = 0
+    }
+}
+}
