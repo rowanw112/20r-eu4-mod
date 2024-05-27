@@ -1,5 +1,6 @@
 ﻿l_english:
- Create_the_calais_strait: "Create the Calais Strait"
+ Create_the_calais_strait_title: "Create the Calais Strait"
  Create_the_calais_strait_desc: "Build a strait connecting Kent and Calais."
- Destroy_the_calais_strait: "Destroy the Calais Strait"
+ Destroy_the_calais_strait_title: "Destroy the Calais Strait"
  Destroy_the_calais_strait_desc: "Destroy the strait connecting Kent and Calais."
+ calais_strait: "straits of calais"
