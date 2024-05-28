@@ -3103,10 +3103,10 @@ ITA_ideas = {
 	free = yes
 	
 	no_a_geographical_construct = {
-		stability_cost_modifier = -0.10
+		 	development_cost = -0.1
 	}
 	tradition_of_the_legion = {
-		infantry_power = 0.15
+		infantry_power = 0.20
 	}
 	mare_nostrum = {
 		galley_cost = -0.15
@@ -3122,7 +3122,7 @@ ITA_ideas = {
 		prestige = 1
 	}
 	path_to_citizenship = {
-		core_creation = -0.25
+		shock_damage_received = -0.15
 	}
 }
 
@@ -11988,7 +11988,7 @@ TPR_ideas = {
 HAN_ideas = {
 	start = {
 		global_foreign_trade_power = 0.1
-		build_cost = -0.1
+		manpower_in_accepted_culture_provinces = 0.20
 	}
 	bonus = {
 		discipline = 0.05
@@ -12006,7 +12006,7 @@ HAN_ideas = {
 	}
 	han_shutzenfest = {
 		land_maintenance_modifier = -0.05
-		fire_damage = 0.05
+		fire_damage = 0.10
 	}
 	han_herrenhausen_gardens = {
 		prestige = 1
@@ -16402,7 +16402,7 @@ CLI_ideas = {
 
 WES_ideas = {
 	start = {
-		diplomats = 1
+		same_culture_advisor_cost = -0.2
 		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
@@ -16418,17 +16418,17 @@ WES_ideas = {
 	}
 	wes_westphalian_decentralisation  = {
 		state_maintenance_modifier = -0.1
-		development_cost = -0.05
+		development_cost = -0.10
 	}
 	wes_increased_conscription = {
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.25
 	}
 	wes_administrative_assimilation_of_rheinlanders = {
 		num_accepted_cultures = 1
 		same_culture_advisor_cost = -0.25
 	}
 	wes_taxation = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.20
 	}
 	wes_enlightenment = {
 		tolerance_heretic = 1
