@@ -16402,7 +16402,7 @@ CLI_ideas = {
 
 WES_ideas = {
 	start = {
-		same_culture_advisor_cost = -0.2
+		no_religion_penalty = yes
 		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
