@@ -25,4 +25,4 @@ discovered_by = ottoman
 	controller = HAB
 	add_core = HAB
 }
-center_of_trade = 1
+center_of_trade = 2
