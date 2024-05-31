@@ -4,3 +4,11 @@
 
 calais_strait = {
 }
+
+
+Colony_decision = {
+	colonists = 1
+	may_explore = yes
+	auto_explore_adjacent_to_colony = yes
+	cb_on_primitives = yes
+}

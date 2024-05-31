@@ -1,0 +1,47 @@
+country_decisions = {
+
+# decision_template = {
+# 	potential = { # requirements to see the decision
+		
+# 	}
+# 	allow = { # requirements to enact
+
+# 	}
+# 	effect = { # what happens
+
+# 	}
+# 	ai_will_do = {
+# 		factor = 1 # 1 = AI will use when available, 0 = AI will never use it
+# 	 	modifier = { # can add a modifier for when the AI can take the decision, such as min prestige 50
+# 			factor = 0 # it is a factor of 0 until the prestige above 50
+# 			NOT = { prestige = 50 }
+# 	}
+# 	}
+# }
+
+ColonialDecision = {
+    color = { 255 0 0 }
+    potential = { # requirements to see the decision
+    NOT = { has_country_flag = ColonialDecision }
+    }
+    allow = { # requirements to enact
+        dip_tech = 5
+        years_of_income = 1
+    }
+    effect = { # what happens when you activate the decision
+        add_country_modifier = {
+            name = Colony_decision
+            duration = -1
+        }
+        create_explorer = {
+            tradition = 40
+        }
+        remove_temporary_colonist = yes
+        add_years_of_income = -1
+        set_country_flag = ColonialDecision
+    }
+    ai_will_do = {
+        factor = 0 # do not want AI to take this mission
+    }
+}
+}
