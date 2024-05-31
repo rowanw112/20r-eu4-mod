@@ -779,7 +779,7 @@ daimyo_ideas = {
 
 BAV_ideas = {
 	start = {
-		cavalry_power = 0.1
+		cavalry_power = 0.25
 		heir_chance = 0.5
 	}
 	
@@ -810,7 +810,8 @@ BAV_ideas = {
 		papal_influence = 1
 	}
 	brewmaster_general = {
-		global_tax_modifier = 0.1
+		cav_to_inf_ratio = 0.20
+		cavalry_flanking = 0.10
 	}
 	professional_army = {
 		discipline = 0.05
