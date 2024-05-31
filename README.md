@@ -36,7 +36,15 @@ Planned
         -- increase influence from 5% to 10%
 
 [] - Rebalance Idea Groups
-    [] - Remove Naval ideas
-    [] - Buff Maritime Ideas with trade + naval ideas without being OP
+    [x] - Remove Naval ideas
+    [x] - Buff Maritime Ideas with trade + naval ideas without being OP
+    [x] - Buff Innovation ideas
 
-[] - 
+[] - Add a decision for colonies (500gp)
+    [] - CB on oversea + primitives
+    [] - free perm colonist (remove_temporary_colonist = yes)
+    [] - quest for new world (explorers/conqueistors)
+    [] - recruit an explorer
+    [] - unlocks decision at dip level 5
+    [] - age of reformation, allows to recruit another colonist (1k)
+    [x] - modify priviledge for colony range with adding 20% passive and keep 10% as a decision
