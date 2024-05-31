@@ -1437,7 +1437,7 @@ expansion_ideas = {
 		reduced_liberty_desire_on_other_continent = 5
 	}
 	general_colonization_law  = {
-		development_cost_in_primary_culture = 0.5
+		development_cost_in_primary_culture = -0.05
 		colonist_placement_chance = 0.05
 		effect = { remove_temporary_colonist = yes }
 	}
