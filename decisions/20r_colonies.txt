@@ -21,14 +21,29 @@ country_decisions = {
 
 ColonialDecision = {
     color = { 255 0 0 }
-    potential = { # requirements to see the decision
-    NOT = { has_country_flag = ColonialDecision }
+    potential = { # Requirements to see the decision
+        NOT = { has_country_flag = ColonialDecision }
+        NOT = { is_primitive = yes }
     }
-    allow = { # requirements to enact
-        dip_tech = 5
+    allow = { # Requirements to enact
+        OR = {
+            AND = {
+                OR = {
+                    capital_scope = { superregion = europe_superregion }
+                    capital_scope = { superregion = south_america_superregion }
+                    capital_scope = { superregion = north_america_superregion }
+                    capital_scope = { superregion = central_america_superregion }
+                    AND = { capital_scope = { region = japan_region } tag = JAP }
+                    AND = { capital_scope = { region = korea_region } tag = KOR }
+                }
+                dip_tech = 5
+            }
+            dip_tech = 10
+            
+        }
         years_of_income = 1
     }
-    effect = { # what happens when you activate the decision
+    effect = { # What happens when you activate the decision
         add_country_modifier = {
             name = Colony_decision
             duration = -1
@@ -41,7 +56,7 @@ ColonialDecision = {
         set_country_flag = ColonialDecision
     }
     ai_will_do = {
-        factor = 0 # do not want AI to take this mission
+        factor = 0 # Do not want AI to take this decision
     }
 }
 }
