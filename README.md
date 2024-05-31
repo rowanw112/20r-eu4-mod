@@ -24,6 +24,7 @@ Added / working on
 
 Planned
 [] - Estates rebalancing / more options
+    [] - Allow to seize crownland while at war
     Clergy
     [] - 
     Nobility
@@ -37,3 +38,5 @@ Planned
 [] - Rebalance Idea Groups
     [] - Remove Naval ideas
     [] - Buff Maritime Ideas with trade + naval ideas without being OP
+
+[] - 
