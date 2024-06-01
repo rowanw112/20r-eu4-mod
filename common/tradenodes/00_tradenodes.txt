@@ -2489,7 +2489,7 @@ ragusa = {
 	}
 }
 genua = { 
-	location = 1862
+	location = 1298
 	end = yes
 	color = { 
 		218 215 56 

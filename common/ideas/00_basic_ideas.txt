@@ -19,9 +19,7 @@ aristocracy_ideas = {
 		maratha_loyalty_modifier = 0.1
 	}
 
-	trigger = {
-		has_government_attribute = enables_aristocratic_idea_group
-	}
+
 	
 	noble_knights = {
 		cavalry_power = 0.15
@@ -96,9 +94,7 @@ plutocracy_ideas = {
 		vaisyas_loyalty_modifier = 0.1
 	}
 
-	trigger = {
-		has_government_attribute = enables_plutocratic_idea_group
-	}
+
 
 	tradition_of_payment = {
 		mercenary_cost = -0.2
@@ -205,9 +201,7 @@ theocracy_gov_ideas = {
 		brahmins_muslim_loyalty_modifier = 0.1
 	}
 	
-	trigger = {
-		has_government_attribute = enables_divine_idea_group
-	}
+
 	servants_of_god = {
 		devotion = 1
 		legitimacy = 0.5
