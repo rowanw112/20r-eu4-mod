@@ -1,13 +1,13 @@
-# 4766 - Verdun
+# 187 Barrois - Principal cities: Verdun
 owner = BAR
 controller = BAR
-capital = "Verdun"
+capital = "Bar-le-Duc"
 is_city = yes
 culture = burgundian
 religion = catholic
 base_tax = 3
-base_production = 3
-trade_goods = grain
+base_production = 4
+trade_goods = cloth
 base_manpower = 3
 add_core = BAR
 discovered_by = eastern
@@ -21,17 +21,13 @@ discovered_by = ottoman
 1477.1.5 = { controller = PRO revolt = { size = 1 } }
 1480.7.10 = { controller = BAR }
 1483.3.23 = { controller = LOR add_core = LOR }
-1551.3.20 = { controller = FRA add_core = FRA }
-1583.1.1 = { fort_15th = no fort_16th = yes }
-1636.7.30 = { controller = HAB }
-1636.10.10 = { controller = FRA }
-1648.1.1 = { fort_16th = no fort_17th = yes }
-1650.3.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
-1650.12.13 = { controller = FRA revolt = { size = 1 } }
-1715.1.1 = { fort_17th = no fort_18th = yes }
+1634.1.19 = { controller = FRA add_core = FRA }
+1661.2.28 = { controller = LOR }
+1670.6.1 = { controller = FRA }
+1697.10.30 = { controller = LOR }
+1766.2.23 = { controller = FRA }
 1806.7.12 = { hre = no }
 add_core = BAR
-fort_15th = yes
 1444.11.11 = { 
 	remove_core = PRO
 }
