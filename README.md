@@ -53,6 +53,9 @@ Added / working on
         [] - Remove the ability to form Ruthenia
     [] - Persia
         [] - Restrict access to forming persia to specific tags, such as ajam.
+    [] - Lithuania
+        [] - release kiev, chernigov and zaporozhie as independents and release cores/claims by lithuania
+        [] - release polotsk and smolensk but are guaranteed by lithuania
     
 
 
