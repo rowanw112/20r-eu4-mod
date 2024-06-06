@@ -39,8 +39,9 @@
     - [x] - Buff Innovation ideas
 
 ### Coutry rebalance
-    - [] - Hesse
+    - [-] - Hesse
         - [x] - start hesse in a more strong position with controlling their state at beginning of the game
+        - [] - Give hesse elector status within the HRE
     - [x] - Morocco
         - [x] - make morocco start with their tafilalt vassal annexed, so they have access to gold mine at beginning
         - [] - Morocco now owns Ceuta at the beginning (province that portugal owns in africa)
@@ -57,6 +58,8 @@
     - [] - Lithuania
         - [] - release kiev, chernigov and zaporozhie as independents and release cores/claims by lithuania
         - [] - release polotsk and smolensk but are guaranteed by lithuania
+    - [] - England
+         - [x] - create a strait between kent and calais
     
 
 
