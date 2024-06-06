@@ -23,18 +23,37 @@ Added / working on
     [x] - Improved Lotharingia ideas to make them more appealing to play, merged some with France
 
 
-[x] - Add a decision for colonies (500gp)
+[x] - Add a decision for colonies (512 months income)
     [x] - perm colonist (remove_temporary_colonist = yes)
     [x] - quest for new world (explorers/conqueistors)
     [x] - recruit an explorer
     [x] - unlocks decision at dip level 5
     [] - age of reformation, allows to recruit another colonist (1k)
     [x] - modify priviledge for colony range with adding 20% passive and keep 10% as a decision
+    [X] - made it so AI never takes it, to prevent performance loss
 
 [] - Rebalance Idea Groups
     [x] - Remove Naval ideas
     [x] - Buff Maritime Ideas with trade + naval ideas without being OP
     [x] - Buff Innovation ideas
+
+[] - Coutry rebalance
+    [] - Hesse
+        [x] - start hesse in a more strong position with controlling their state at beginning of the game
+    [x] - Morocco
+        [x] - make morocco start with their tafilalt vassal annexed, so they have access to gold mine at beginning
+        [] - Morocco now owns Ceuta at the beginning (province that portugal owns in africa)
+        [x] - remove the fort from tangiers
+        []  - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
+    [] - sicily
+        [] - add a strait between sicily and tunis
+    [] - Tunis
+        [] - has fezzan as a vassal
+    [] - Ruthenia
+        [] - Remove the ability to form Ruthenia
+    [] - Persia
+        [] - Restrict access to forming persia to specific tags, such as ajam.
+    
 
 
 Planned
@@ -49,3 +68,12 @@ Planned
         -- Remove all power costs
         -- decrease yearly inflation reduction from +0.15 to +0.10
         -- increase influence from 5% to 10%
+
+[] - rebalance age bonuses
+    [] - nerf poland 33% production efficiency
+    [] - 
+
+[] - world events become static timed events instead of random
+    [] - force the protestant reformanation to fire at a specific date (maybe 1510)
+    [] - force the italian withdrawal from the HRE event to fire at 1490
+
