@@ -24,6 +24,12 @@
     - [x] - Improved Lotharingia ideas to make them more appealing to play, merged some with France
 
 
+### Religion
+    - [x] - Allow Christians to have female defenders of faith
+    - [x] - Make all Defender of faith levels have same bonuses
+    - [] - Protestant
+        - [] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
+
 ###  Add a decision for colonies (512 months income)
     - [x] - perm colonist (remove_temporary_colonist = yes)
     - [x] - quest for new world (explorers/conqueistors)
@@ -42,41 +48,42 @@
 ### Coutry rebalance
     - [-] - Hesse
         - [x] - start hesse in a more strong position with controlling their state at beginning of the game
-        - [] - Give hesse elector status within the HRE
+        - [x] - Give hesse elector status within the HRE
     - [x] - Morocco
         - [x] - make morocco start with their tafilalt vassal annexed, so they have access to gold mine at beginning
-        - [] - Morocco now owns Ceuta at the beginning (province that portugal owns in africa)
+        - [x] - Morocco now owns Ceuta at the beginning (province that portugal owns in africa)
         - [x] - remove the fort from tangiers
-        - []  - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
-    - [] - Naples
-        - [] - Release from Aragon
+        - [x]  - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
+    - [x] - Naples
+        - [x] - Release from Aragon
     - [] - sicily
         - [] - add a strait between sicily and tunis
+    - [x] - Aragon
+        - [x] - Release Sicily
     - [] - Tunis
-        - [] - make fezzan as a vassal
-        - [] - add a military national idea
-        - [] - start with a truce with sicily
+        - [x] - make fezzan as a vassal
+        - [x] - add a military national idea
     - [] - Ruthenia
         - [] - Remove the ability to form Ruthenia
     - [] - Persia
         - [] - Restrict access to forming persia to specific tags, such as ajam.
     - [] - Lithuania
-        - [] - release kiev, chernigov and zaporozhie as independents and release cores/claims by lithuania
-        - [] - release polotsk and smolensk but are guaranteed by lithuania
+        - [x] - release kiev and chernigov as independents and release cores/claims by lithuania
+        - [x] - release polotsk and smolensk
     - [] - England
          - [x] - create a strait between kent and calais
-    - [] - Poland
-        - [] - Nerf their cav combat bonus from 30% to 20%
-    - [] - Austria
-        - [] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
+    - [x] - Poland
+        - [x] - Nerf their cav combat bonus from 30% to 20%
+    - [x] - Austria
+        - [x] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
     - [] - Crimea
         - [] - remove the march event for ottomans
-        - [] - annex genoa lands that's in crimea
-    - [] - Theodoro
-        - [] - annex genoa lands that's in crimea
-    - [] - Burgundy
-        - [] - Release bar from province (move their capital where their fort is)
-        - [] - start with lorriane provinces annexed
+        - [x] - annex genoa lands that's in crimea
+    - [x] - Theodoro
+        - [x] - annex genoa lands that's in crimea
+    - [x] - Burgundy
+        - [x] - Release bar from province (move their capital where their fort is)
+        - [x] - start with lorriane provinces annexed
     
 
 

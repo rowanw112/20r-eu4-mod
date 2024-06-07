@@ -1737,7 +1737,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.3
+		cavalry_power = 0.2 # was 0.3
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
@@ -1859,7 +1859,7 @@ PLC_ideas = {
 		army_tradition = 1
 	}
 	winged_hussars = { 
-		cavalry_power = 0.3
+		cavalry_power = 0.2 # was 0.3
 		can_recruit_hussars = yes
 	}
 	plc_refine_our_golden_liberty = { #Same for all of them
@@ -15440,19 +15440,20 @@ MOR_ideas = {
 
 TUN_ideas = {
 	start = {
-		naval_attrition = -0.25
+		naval_attrition = -0.25 # swapped with Ambition
 		galley_power = 0.2		
 	}
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		naval_attrition = -0.25 # swapped with Tradition
 	}
 	trigger = {
 		tag = TUN
 	}
 	free = yes
 	tun_catalan_guard = {
-		mercenary_discipline = 0.05
-		infantry_power = 0.05
+		# mercenary_discipline = 0.05
+		# infantry_power = 0.05
+		discipline = 0.05
 	}
 	dual_diplomacy = {
 		diplomatic_upkeep = 1
@@ -15469,11 +15470,11 @@ TUN_ideas = {
 	}
 	tun_export_monopolies = {
 		global_own_trade_power = 0.2
-		trade_efficiency = 0.05
+		trade_efficiency = 0.1 # was 0.5
 	}
 	tun_caliphate = {
 		tolerance_own = 1
-		monthly_piety = 0.001
+		monthly_piety_accelerator = 0.001
 	}
 }
 

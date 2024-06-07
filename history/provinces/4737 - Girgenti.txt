@@ -41,5 +41,5 @@ discovered_by = ottoman
 }
 add_core = SIC
 1444.11.11 = { 
-	remove_core = SIC
+	add_core = SIC
 }
