@@ -1,17 +1,14 @@
-# 2986 - Cagliari
-latent_trade_goods = { 
-	coal 
-}
+#127 - Sardinia
 owner = SAR
 controller = ARA
 culture = sardinian
 religion = catholic
 base_tax = 3
 base_production = 3
-trade_goods = copper
-base_manpower = 1
-capital = "Cagliari"
-is_city = yes# Estimated 
+trade_goods = fish
+base_manpower = 2
+capital = "Sassari"
+is_city = yes
 add_core = SAR
 discovered_by = western
 discovered_by = eastern
@@ -32,7 +29,6 @@ discovered_by = ottoman
 }
 1796.1.1 = { controller = FRA }
 1796.4.16 = { controller = SPI }
-center_of_trade = 1
 add_core = ARA
 1444.11.11 = { 
 	remove_core = ARA

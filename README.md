@@ -37,6 +37,7 @@
     - [x] - Remove Naval ideas
     - [x] - Buff Maritime Ideas with trade + naval ideas without being OP
     - [x] - Buff Innovation ideas
+    - [] - make it so influence ideas can annex their march
 
 ### Coutry rebalance
     - [-] - Hesse
@@ -47,10 +48,14 @@
         - [] - Morocco now owns Ceuta at the beginning (province that portugal owns in africa)
         - [x] - remove the fort from tangiers
         - []  - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
+    - [] - Naples
+        - [] - Release from Aragon
     - [] - sicily
         - [] - add a strait between sicily and tunis
     - [] - Tunis
-        - [] - has fezzan as a vassal
+        - [] - make fezzan as a vassal
+        - [] - add a military national idea
+        - [] - start with a truce with sicily
     - [] - Ruthenia
         - [] - Remove the ability to form Ruthenia
     - [] - Persia
@@ -60,6 +65,18 @@
         - [] - release polotsk and smolensk but are guaranteed by lithuania
     - [] - England
          - [x] - create a strait between kent and calais
+    - [] - Poland
+        - [] - Nerf their cav combat bonus from 30% to 20%
+    - [] - Austria
+        - [] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
+    - [] - Crimea
+        - [] - remove the march event for ottomans
+        - [] - annex genoa lands that's in crimea
+    - [] - Theodoro
+        - [] - annex genoa lands that's in crimea
+    - [] - Burgundy
+        - [] - Release bar from province (move their capital where their fort is)
+        - [] - start with lorriane provinces annexed
     
 
 

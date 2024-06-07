@@ -14,7 +14,7 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-1430.6.26 = { owner = BAR controller = BAR add_core = BAR }
+1430.6.26 = { owner = BAR controller = BAR }
 1467.6.15 = { add_core = BUR }
 1475.11.30 = { controller = BUR }
 1476.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
@@ -31,7 +31,3 @@ discovered_by = ottoman
 1715.1.1 = { fort_17th = no fort_18th = yes }
 1806.7.12 = { hre = no }
 add_core = BAR
-fort_15th = yes
-1444.11.11 = { 
-	remove_core = PRO
-}
