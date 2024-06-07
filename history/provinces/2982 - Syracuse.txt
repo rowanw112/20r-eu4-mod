@@ -1,6 +1,6 @@
 # - Syracusa
 owner = SIC
-controller = ARA
+controller = SIC
 culture = sicilian
 religion = catholic
 base_tax = 4
@@ -16,9 +16,9 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 1409.7.25 = { 
-	owner = ARA
-	controller = ARA
-	add_core = ARA
+	owner = SIC
+	controller = SIC
+	add_core = SIC
 }
 1516.1.23 = { 
 	controller = SPA
@@ -39,7 +39,7 @@ discovered_by = ottoman
 1815.5.3 = { 
 	controller = NAP
 }
-add_core = ARA
+add_core = SIC
 1444.11.11 = { 
-	remove_core = ARA
+	remove_core = SIC
 }
