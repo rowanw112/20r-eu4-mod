@@ -330,7 +330,7 @@ interaction = {
 			}
 			NOT = { has_estate_privilege = estate_church_statutory_rights }
 		}
-        is_at_war = yes ## changed from a no to a yes, to allow siezing of land during war
+        # is_at_war = no ## removed to allow during war
 		if = {
 			limit = { has_government_attribute = can_not_seize_land }
 			NOT = { has_government_attribute_short_desc = can_not_seize_land }
