@@ -114,5 +114,4 @@
 
 ### world events become static timed events instead of random
     - [x] - force the protestant reformanation to fire at a specific date year 1510
-    - [] - force the italian withdrawal from the HRE event to fire at 1490
 
