@@ -49,7 +49,7 @@
         - [x] - make morocco start with their tafilalt vassal annexed, so they have access to gold mine at beginning
         - [x] - Morocco now owns Ceuta at the beginning (province that portugal owns in africa)
         - [x] - remove the fort from tangiers
-        - [x]  - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
+        - [x] - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
     - [x] - Naples
         - [x] - Release from Aragon
     - [x] - Aragon
@@ -90,7 +90,6 @@
 
 ### rebalance age bonuses
     - [x] - nerf poland 33% production efficiency to 10%
-    - [] - nerf persia's -20% dev cost to mountains/hills only    
 
 ### Estates rebalancing / more options
     - [x] - Allow to seize crownland while at war
