@@ -59,8 +59,6 @@
         - [x] - add a military national idea
     - [] - Ruthenia
         - [] - Remove the ability to form Ruthenia
-    - [] - Persia
-        - [] - Restrict access to forming persia to specific tags, such as ajam.
     - [x] - Lithuania
         - [x] - release kiev and chernigov as independents and release cores/claims by lithuania
         - [x] - release polotsk and smolensk
