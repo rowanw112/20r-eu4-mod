@@ -57,8 +57,8 @@
     - [x] - Tunis
         - [x] - make fezzan as a vassal
         - [x] - add a military national idea
-    - [] - Ruthenia
-        - [] - Remove the ability to form Ruthenia
+    - [x] - Poland
+        - [x] - Removed the ability for poland to swap to ruthenia
     - [x] - Lithuania
         - [x] - release kiev and chernigov as independents and release cores/claims by lithuania
         - [x] - release polotsk and smolensk
