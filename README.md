@@ -30,12 +30,12 @@
     - [] - Protestant
         - [] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
 
-###  Add a decision for colonies (512 months income)
+###  Add a decision for colonies (1 year income)
     - [x] - perm colonist (remove_temporary_colonist = yes)
     - [x] - quest for new world (explorers/conqueistors)
     - [x] - recruit an explorer
     - [x] - unlocks decision at dip level 5
-    - [] - age of reformation, allows to recruit another colonist (1k)
+    - [x] - dip tech 10, allows to recruit another colonist (1 year income)
     - [x] - modify priviledge for colony range with adding 20% passive and keep 10% as a decision
     - [x] - made it so AI never takes it, to prevent performance loss
 
@@ -46,7 +46,7 @@
     - [] - 
 
 ### Coutry rebalance
-    - [-] - Hesse
+    - [x] - Hesse
         - [x] - start hesse in a more strong position with controlling their state at beginning of the game
         - [x] - Give hesse elector status within the HRE
     - [x] - Morocco
@@ -70,7 +70,7 @@
     - [x] - Lithuania
         - [x] - release kiev and chernigov as independents and release cores/claims by lithuania
         - [x] - release polotsk and smolensk
-    - [] - England
+    - [x] - England
          - [x] - create a strait between kent and calais
     - [x] - Poland
         - [x] - Nerf their cav combat bonus from 30% to 20%
@@ -85,7 +85,7 @@
         - [x] - Release bar from province (move their capital where their fort is)
         - [x] - start with lorriane provinces annexed
         - [] - remove Aachen as a requirement for mission to conquere liege
-    - [] - Switzerland
+    - [x] - Switzerland
         - [x] - Annex three leagues
         - [x] - start off as an elector
     - [x] - Brandenburg
@@ -111,8 +111,8 @@
         -- increase influence from 5% to 10%
 
 ### rebalance age bonuses
-    - [] - nerf poland 33% production efficiency
-    - [] - 
+    - [x] - nerf poland 33% production efficiency to 10%
+    - [x] - nerf persia's -20% dev cost to 5%
 
 ### world events become static timed events instead of random
     - [] - force the protestant reformanation to fire at a specific date (maybe 1510)
