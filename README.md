@@ -43,7 +43,7 @@
     - [x] - Remove Naval ideas
     - [x] - Buff Maritime Ideas with trade + naval ideas without being OP
     - [x] - Buff Innovation ideas
-    - [] - make it so influence ideas can annex their march
+    - [] - 
 
 ### Coutry rebalance
     - [-] - Hesse
@@ -67,7 +67,7 @@
         - [] - Remove the ability to form Ruthenia
     - [] - Persia
         - [] - Restrict access to forming persia to specific tags, such as ajam.
-    - [] - Lithuania
+    - [x] - Lithuania
         - [x] - release kiev and chernigov as independents and release cores/claims by lithuania
         - [x] - release polotsk and smolensk
     - [] - England
@@ -76,14 +76,24 @@
         - [x] - Nerf their cav combat bonus from 30% to 20%
     - [x] - Austria
         - [x] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
-    - [] - Crimea
-        - [] - remove the march event for ottomans
+    - [x] - Crimea
+        - [x] - remove the march event for ottomans
         - [x] - annex genoa lands that's in crimea
     - [x] - Theodoro
         - [x] - annex genoa lands that's in crimea
     - [x] - Burgundy
         - [x] - Release bar from province (move their capital where their fort is)
         - [x] - start with lorriane provinces annexed
+        - [] - remove Aachen as a requirement for mission to conquere liege
+    - [] - Switzerland
+        - [x] - Annex three leagues
+        - [x] - start off as an elector
+    - [x] - Brandenburg
+        - [x] - Annex the eastern provinces that teutons own
+    - [] - Sweden
+        - [] - create a strait to gotland
+        - [] - create a strait to reval
+
     
 
 

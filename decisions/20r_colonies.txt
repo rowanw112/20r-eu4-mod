@@ -23,6 +23,7 @@ ColonialDecision = {
     color = { 255 0 0 }
     potential = { # Requirements to see the decision
         NOT = { has_country_flag = ColonialDecision }
+        NOT = { has_country_flag = AORColonialDecision }
         NOT = { is_primitive = yes }
     }
     allow = { # Requirements to enact
@@ -54,6 +55,47 @@ ColonialDecision = {
         remove_temporary_colonist = yes
         add_years_of_income = -1
         set_country_flag = ColonialDecision
+    }
+    ai_will_do = {
+        factor = 0 # Do not want AI to take this decision
+    }
+}
+}
+
+AORColonialDecision = {
+    color = { 255 0 0 }
+    potential = { # Requirements to see the decision
+        has_country_flag = ColonialDecision
+        NOT = { has_country_flag = AORColonialDecision }
+        NOT = { is_primitive = yes }
+        dip_tech = 7
+    }
+    allow = { # Requirements to enact
+        # OR = { to restrict colonism to dip tech 5 for certain countries
+        #     AND = {
+        #         OR = {
+        #             capital_scope = { superregion = europe_superregion }
+        #             capital_scope = { superregion = south_america_superregion }
+        #             capital_scope = { superregion = north_america_superregion }
+        #             capital_scope = { superregion = central_america_superregion }
+        #             AND = { capital_scope = { region = japan_region } tag = JAP }
+        #             AND = { capital_scope = { region = korea_region } tag = KOR }
+        #         }
+        #         dip_tech = 5
+        #     }
+        #     dip_tech = 10
+        # }
+        dip_tech = 10
+        years_of_income = 1
+    }
+    effect = { # What happens when you activate the decision
+        add_country_modifier = {
+            name = AORColony_decision
+            duration = -1
+        }
+        remove_temporary_colonist = yes
+        add_years_of_income = -1
+        set_country_flag = AORColonialDecision
     }
     ai_will_do = {
         factor = 0 # Do not want AI to take this decision

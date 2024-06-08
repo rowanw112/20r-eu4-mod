@@ -11,3 +11,7 @@ Colony_decision = {
 	may_explore = yes
 	auto_explore_adjacent_to_colony = yes
 }
+
+AORColony_decision = {
+	colonists = 1
+}
