@@ -99,13 +99,13 @@
 
 ## Planned
 ### Estates rebalancing / more options
-    - [] - Allow to seize crownland while at war
+    - [x] - Allow to seize crownland while at war
     Clergy
     - [] - 
     Nobility
     - [] - 
     Burghers
-    - [] - Control over Monetary Policy
+    - [x] - Control over Monetary Policy
         -- Remove all power costs
         -- decrease yearly inflation reduction from +0.15 to +0.10
         -- increase influence from 5% to 10%
