@@ -23,8 +23,8 @@
 ### Religion
     - [x] - Allow Christians to have female defenders of faith
     - [x] - Make all Defender of faith levels have same bonuses
-    - [] - Protestant
-        - [] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
+    - [x] - Protestant
+        - [x] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
 
 ###  Add a decision for colonies (1 year income)
     - [x] - perm colonist (remove_temporary_colonist = yes)
@@ -52,8 +52,6 @@
         - [x]  - add a truce with granada (10 years) to prevent instant annex by morocco and allows both morocco and castile to fight for it.
     - [x] - Naples
         - [x] - Release from Aragon
-    - [] - sicily
-        - [] - add a strait between sicily and tunis
     - [x] - Aragon
         - [x] - Release Sicily
     - [x] - Tunis
@@ -86,9 +84,9 @@
         - [x] - start off as an elector
     - [x] - Brandenburg
         - [x] - Annex the eastern provinces that teutons own
-    - [] - Sweden
-        - [] - create a strait to gotland
-        - [] - create a strait to reval
+    - [x] - Sweden
+        - [x] - create a strait to gotland
+        - [x] - create a strait to reval
     - [x] - Lotharingia
         - [x] - improved national ideas to make them more interesting and worth it to use.
 
@@ -96,8 +94,6 @@
     - [x] - nerf poland 33% production efficiency to 10%
     - [x] - nerf persia's -20% dev cost to 5%    
 
-
-## Planned
 ### Estates rebalancing / more options
     - [x] - Allow to seize crownland while at war
     Clergy
@@ -115,3 +111,4 @@
 ### world events become static timed events instead of random
     - [x] - force the protestant reformanation to fire at a specific date year 1510
 
+## Planned/notstarted on
