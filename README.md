@@ -20,10 +20,6 @@
     - [x] - Disabled no alliance option with -200 relations, so you can ally bordering nations that are players 
     (you still can not ally non-player nations if relations are too low) 
 
-### Nation idea rebalancing
-    - [x] - Improved Lotharingia ideas to make them more appealing to play, merged some with France
-
-
 ### Religion
     - [x] - Allow Christians to have female defenders of faith
     - [x] - Make all Defender of faith levels have same bonuses
@@ -60,7 +56,7 @@
         - [] - add a strait between sicily and tunis
     - [x] - Aragon
         - [x] - Release Sicily
-    - [] - Tunis
+    - [x] - Tunis
         - [x] - make fezzan as a vassal
         - [x] - add a military national idea
     - [] - Ruthenia
@@ -93,8 +89,12 @@
     - [] - Sweden
         - [] - create a strait to gotland
         - [] - create a strait to reval
+    - [x] - Lotharingia
+        - [x] - improved national ideas to make them more interesting and worth it to use.
 
-    
+### rebalance age bonuses
+    - [x] - nerf poland 33% production efficiency to 10%
+    - [x] - nerf persia's -20% dev cost to 5%    
 
 
 ## Planned
@@ -110,11 +110,9 @@
         -- decrease yearly inflation reduction from +0.15 to +0.10
         -- increase influence from 5% to 10%
 
-### rebalance age bonuses
-    - [x] - nerf poland 33% production efficiency to 10%
-    - [x] - nerf persia's -20% dev cost to 5%
+
 
 ### world events become static timed events instead of random
-    - [] - force the protestant reformanation to fire at a specific date (maybe 1510)
+    - [x] - force the protestant reformanation to fire at a specific date year 1510
     - [] - force the italian withdrawal from the HRE event to fire at 1490
 
