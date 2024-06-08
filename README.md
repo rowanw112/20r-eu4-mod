@@ -108,7 +108,7 @@
     - [x] - Control over Monetary Policy
         -- Remove all power costs
         -- decrease yearly inflation reduction from +0.15 to +0.10
-        -- increase influence from 5% to 10%
+        -- increase influence from 5% to 15%
 
 
 
