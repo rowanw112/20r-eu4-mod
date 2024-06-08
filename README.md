@@ -90,7 +90,7 @@
 
 ### rebalance age bonuses
     - [x] - nerf poland 33% production efficiency to 10%
-    - [x] - nerf persia's -20% dev cost to 5%    
+    - [] - nerf persia's -20% dev cost to mountains/hills only    
 
 ### Estates rebalancing / more options
     - [x] - Allow to seize crownland while at war

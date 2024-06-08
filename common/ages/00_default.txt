@@ -529,7 +529,7 @@ age_of_reformation = {
 				on_age_ability_taken = { age = age_of_reformation }
 			}
 			modifier = {
-				development_cost = -0.05
+				development_cost = -0.2
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
