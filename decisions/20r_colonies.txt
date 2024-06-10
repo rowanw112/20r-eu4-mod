@@ -60,7 +60,6 @@ ColonialDecision = {
         factor = 0 # Do not want AI to take this decision
     }
 }
-}
 
 AORColonialDecision = {
     color = { 255 0 0 }

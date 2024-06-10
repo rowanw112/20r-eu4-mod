@@ -19,6 +19,7 @@
 ### Gameplay Changes
     - [x] - Disabled no alliance option with -200 relations, so you can ally bordering nations that are players 
     (you still can not ally non-player nations if relations are too low) 
+    - [] - disinheriting an heir costs -30 prestige instead of -50 prestige
 
 ### Religion
     - [x] - Allow Christians to have female defenders of faith
@@ -70,10 +71,9 @@
         - [x] - updated national ideas
     - [x] - Poland
         - [x] - Nerf their cav combat bonus from 30% to 20%
-    - [-] - Austria
+    - [x] - Austria
         - [x] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
-        - [] - Allow Austria to form Austria-Hungary at ADM tech 10 with humiliate rival/pwr projection 100 instead of ADM tech 20
-        - [] - Allow Austrian Tenacity Age of Revolution bonus for Austria-Hungary
+        - [x] - Allow Austria and hungary to form Austria-Hungary at ADM tech 10 instead of ADM tech 20
     - [x] - Crimea
         - [x] - remove the march event for ottomans
         - [x] - annex genoa lands that's in crimea
@@ -88,10 +88,10 @@
         - [x] - start off as an elector
     - [x] - Brandenburg
         - [x] - Annex the eastern provinces that teutons own
-    - [-] - Sweden
+    - [x] - Sweden
         - [x] - create a strait to gotland
         - [x] - create a strait to reval
-        - [] - Allow formation of Scandanavia at ADM tech 10 with humiliate rival/pwr projection 100 instead of ADM tech 20
+        - [x] - Allow formation of Scandanavia at ADM tech 10 with instead of ADM tech 20
     - [x] - Lotharingia
         - [x] - improved national ideas to make them more interesting and worth it to use.
 
