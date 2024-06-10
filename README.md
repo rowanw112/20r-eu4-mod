@@ -39,7 +39,8 @@
     - [x] - Remove Naval ideas
     - [x] - Buff Maritime Ideas with trade + naval ideas without being OP
     - [x] - Buff Innovation ideas
-    - [] - 
+    - [x] - Unlocked Divine ideas for all countries
+    - [x] - Nerfed Mercenary Ideas
 
 ### Coutry rebalance
     - [x] - Hesse
@@ -64,10 +65,15 @@
         - [x] - release polotsk and smolensk
     - [x] - England
          - [x] - create a strait between kent and calais
+         - [x] - updated national ideas for great britain
+    - [x] - Italy
+        - [x] - updated national ideas
     - [x] - Poland
         - [x] - Nerf their cav combat bonus from 30% to 20%
-    - [x] - Austria
+    - [-] - Austria
         - [x] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
+        - [] - Allow Austria to form Austria-Hungary at ADM tech 10 with humiliate rival/pwr projection 100 instead of ADM tech 20
+        - [] - Allow Austrian Tenacity Age of Revolution bonus for Austria-Hungary
     - [x] - Crimea
         - [x] - remove the march event for ottomans
         - [x] - annex genoa lands that's in crimea
@@ -82,9 +88,10 @@
         - [x] - start off as an elector
     - [x] - Brandenburg
         - [x] - Annex the eastern provinces that teutons own
-    - [x] - Sweden
+    - [-] - Sweden
         - [x] - create a strait to gotland
         - [x] - create a strait to reval
+        - [] - Allow formation of Scandanavia at ADM tech 10 with humiliate rival/pwr projection 100 instead of ADM tech 20
     - [x] - Lotharingia
         - [x] - improved national ideas to make them more interesting and worth it to use.
 
