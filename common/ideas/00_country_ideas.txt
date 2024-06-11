@@ -15446,7 +15446,7 @@ MOR_ideas = {
 
 TUN_ideas = {
 	start = {
-		naval_attrition = -0.25 # swapped with Ambition
+		naval_forcelimit_modifier = 0.25 # swapped with Ambition
 		galley_power = 0.2		
 	}
 	bonus = {
