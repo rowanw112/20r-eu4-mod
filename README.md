@@ -19,13 +19,16 @@
 ### Gameplay Changes
     - [x] - Disabled no alliance option with -200 relations, so you can ally bordering nations that are players 
     (you still can not ally non-player nations if relations are too low) 
-    - [] - disinheriting an heir costs -30 prestige instead of -50 prestige
+    - [x] - disinheriting an heir costs -30 prestige instead of -50 prestige
 
 ### Religion
     - [x] - Allow Christians to have female defenders of faith
     - [x] - Make all Defender of faith levels have same bonuses
     - [x] - Protestant
         - [x] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
+    - [x] - Orthodox
+        - [x] - Nerfed Local manpower modifier to 20% from 33%
+        - [x] - Nerfed dev cost from -10% to -7%
 
 ###  Add a decision for colonies (1 year income)
     - [x] - perm colonist (remove_temporary_colonist = yes)
@@ -74,9 +77,10 @@
     - [x] - Austria
         - [x] - release the 2 provinces they own north of switzerland and grant them 2 provinces in bavaria
         - [x] - Allow Austria and hungary to form Austria-Hungary at ADM tech 10 instead of ADM tech 20
-    - [x] - Crimea
+    - [-] - Crimea
         - [x] - remove the march event for ottomans
         - [x] - annex genoa lands that's in crimea
+        - [] - starts off with fuedelism
     - [x] - Theodoro
         - [x] - annex genoa lands that's in crimea
     - [x] - Burgundy
@@ -86,14 +90,19 @@
     - [x] - Switzerland
         - [x] - Annex three leagues
         - [x] - start off as an elector
-    - [x] - Brandenburg
+    - [x] - Brandenburg / Prussia
         - [x] - Annex the eastern provinces that teutons own
+        - [x] - updated Prussia's colour to a more bluish colour
     - [x] - Sweden
         - [x] - create a strait to gotland
         - [x] - create a strait to reval
         - [x] - Allow formation of Scandanavia at ADM tech 10 with instead of ADM tech 20
     - [x] - Lotharingia
         - [x] - improved national ideas to make them more interesting and worth it to use.
+    - [x] - Ottomans
+        - [x] - Make Ottomans red instead of green, to avoid border issues with Russia, Crimea, Italy and Persia.
+    - [] - Songhai
+        - [] - starts off with fuedelism
 
 ### rebalance age bonuses
     - [x] - nerf poland 33% production efficiency to 10%
@@ -103,13 +112,16 @@
     Clergy
     - [] - 
     Nobility
-    - [] - 
+    - [x] - Nerf Russia's culture Boyers - Landed Army
+        - [x] - Cav Combat ability From 20% to 10%
     Burghers
     - [x] - Control over Monetary Policy
         -- Remove all power costs
         -- decrease yearly inflation reduction from +0.15 to +0.10
         -- increase influence from 5% to 15%
-
+    Cossacks
+    - [x] - Nerf Cav Combat ability from 20% to 10%
+    - [x] - Neff Cav Cost from -20% to 15%
 
 
 ### world events become static timed events instead of random
