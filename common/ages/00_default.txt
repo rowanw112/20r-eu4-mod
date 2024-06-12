@@ -181,7 +181,7 @@ age_of_discovery = {
 				on_age_ability_taken = { age = age_of_discovery }
 			}
 			modifier = {
-				cav_to_inf_ratio = 0.2
+				cavalry_power = 0.10
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -223,7 +223,19 @@ age_of_discovery = {
 				on_age_ability_taken = { age = age_of_discovery }
 			}
 			allow = {
-				tag = TUR
+				and ={
+
+				
+				or = {
+					tag = MAM
+					tag = TUR
+					tag = RUM
+					capital_scope = {
+						superregion = near_east_superregion
+					}
+				}
+				religion_group = muslim
+				}
 			}
 			modifier = {
 				leader_siege = 1 
@@ -239,7 +251,10 @@ age_of_discovery = {
 				on_age_ability_taken = { age = age_of_discovery }
 			}
 			allow = {
+				or = {
+					not = { total_development = 200 }
 				tag = POR
+				}
 			}
 			modifier = {
 				global_colonial_growth = 50
