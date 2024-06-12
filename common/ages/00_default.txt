@@ -93,10 +93,18 @@ age_of_discovery = {
 		} 
 		
 		obj_many_vassals = {
-			allow = {
-				NOT = { religion_group = christian }
-			}
-			vassal = 5
+ estate_influence = {
+	estate = estate_burghers
+	influence = 70
+ }
+ estate_influence = {
+	estate = estate_church
+	influence = 70
+ }
+ estate_influence = {
+	estate = estate_nobles
+	influence = 70
+ }
 		}		
 	
 		obj_two_continents = {
