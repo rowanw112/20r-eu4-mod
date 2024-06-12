@@ -881,10 +881,6 @@ country_event = {
 		POL = { 
 			create_union = LIT 
 			country_event = { id = flavor_pol.20 }
-			add_country_modifier = {
-				name = polish_lith_debuff
-				duration = 3650
-			}
 		}
 		if = {
 			limit = { has_dlc = "Lions of the North" }

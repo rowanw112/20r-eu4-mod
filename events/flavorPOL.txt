@@ -1897,6 +1897,10 @@ country_event = {
 	option = {
 		name = flavor_pol.20.a
 		add_government_reform = polish_elective_monarchy
+		add_country_modifier = { # poland debuff for annexing lith land
+			name = polish_lith_debuff
+			duration = 3650
+		}
 		if = {
 			limit = {
 				NOT = { has_estate_privilege = estate_nobles_golden_liberty }
