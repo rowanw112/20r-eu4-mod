@@ -20,10 +20,13 @@
     - [x] - Disabled no alliance option with -200 relations, so you can ally bordering nations that are players 
     (you still can not ally non-player nations if relations are too low) 
     - [x] - disinheriting an heir costs -30 prestige instead of -50 prestige
+    - [] - fix slackening so that it doesn't give double manpower for parliament issue and call on religious followers for islam
+    - [] - change pol-lith union event so it releases eastern nations and poland annexing central lithuania.
 
 ### Religion
     - [x] - Allow Christians to have female defenders of faith
     - [x] - Make all Defender of faith levels have same bonuses
+    -[] - remove higher papal influence gain by having high relations with the pope
     - [x] - Protestant
         - [x] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
     - [x] - Orthodox

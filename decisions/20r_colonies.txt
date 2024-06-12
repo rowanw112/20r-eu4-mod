@@ -57,7 +57,11 @@ ColonialDecision = {
         set_country_flag = ColonialDecision
     }
     ai_will_do = {
-        factor = 0 # Do not want AI to take this decision
+        factor = 1 # AI will not take this unless their capital is in western europe
+        	 	modifier = { # can add a modifier for when the AI can take the decision
+			    factor = 0 # it is a factor of 0 unless the ai has their capital in western europe
+			    NOT = { capital_scope = { superregion = europe_superregion } }
+	    }
     }
 }
 
@@ -70,20 +74,20 @@ AORColonialDecision = {
         dip_tech = 7
     }
     allow = { # Requirements to enact
-        # OR = { to restrict colonism to dip tech 5 for certain countries
-        #     AND = {
-        #         OR = {
-        #             capital_scope = { superregion = europe_superregion }
-        #             capital_scope = { superregion = south_america_superregion }
-        #             capital_scope = { superregion = north_america_superregion }
-        #             capital_scope = { superregion = central_america_superregion }
-        #             AND = { capital_scope = { region = japan_region } tag = JAP }
-        #             AND = { capital_scope = { region = korea_region } tag = KOR }
-        #         }
-        #         dip_tech = 5
-        #     }
-        #     dip_tech = 10
-        # }
+        OR = { # to restrict colonism to dip tech 5 for certain countries
+            AND = {
+                OR = {
+                    capital_scope = { superregion = europe_superregion }
+                    capital_scope = { superregion = south_america_superregion }
+                    capital_scope = { superregion = north_america_superregion }
+                    capital_scope = { superregion = central_america_superregion }
+                    AND = { capital_scope = { region = japan_region } tag = JAP }
+                    AND = { capital_scope = { region = korea_region } tag = KOR }
+                }
+                dip_tech = 5
+            }
+            dip_tech = 10
+        }
         dip_tech = 10
         years_of_income = 1
     }
@@ -97,7 +101,11 @@ AORColonialDecision = {
         set_country_flag = AORColonialDecision
     }
     ai_will_do = {
-        factor = 0 # Do not want AI to take this decision
+        factor = 1 # AI will not take this unless their capital is in western europe
+        	 	modifier = { # can add a modifier for when the AI can take the decision
+			    factor = 0 # it is a factor of 0 unless the ai has their capital in western europe
+			    NOT = { capital_scope = { superregion = europe_superregion } }
+	    }
     }
 }
 }
