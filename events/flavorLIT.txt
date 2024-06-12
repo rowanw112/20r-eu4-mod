@@ -872,9 +872,9 @@ country_event = {
 		269 = {	add_core = POL	cede_province = POL }
 		release_all_possible_countries = yes
 		291 = {	add_core = CHR remove_core = LIT cede_province = CHR }
-		4115 = { add_core = PLT cede_province = PLT }
-		4544 = { add_core = PLT cede_province = PLT }
-		276 = { add_core = PLT cede_province = PLT }
+		4115 = { add_core = PLT remove_core = LIT cede_province = PLT }
+		4544 = { add_core = PLT remove_core = LIT cede_province = PLT }
+		276 = { add_core = PLT remove_core = LIT cede_province = PLT }
 		282 = { add_core = KIE cede_province = KIE }
 		2406 = { add_core = KIE cede_province = KIE }
 		283 = { add_core = KIE cede_province = KIE }
