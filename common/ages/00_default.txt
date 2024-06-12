@@ -107,9 +107,9 @@ age_of_discovery = {
  }
 		}		
 	
-		obj_two_continents = {
-			num_of_continents = 2
-		}
+		# obj_two_continents = {
+		# 	num_of_continents = 2
+		# }
 	
 		obj_humiliate_rival = {
 			custom_trigger_tooltip = {
@@ -269,10 +269,16 @@ age_of_discovery = {
 				on_age_ability_taken = { age = age_of_discovery }
 			}
 			allow = {
+				or = {
 				tag = DAN
+				tag = MOS
+				tag = SWE
+				tag = NOR
+				vassal = 5
+				}
 			}
 			modifier = {
-				reduced_liberty_desire = 30
+				diplomatic_annexation_cost = -0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
