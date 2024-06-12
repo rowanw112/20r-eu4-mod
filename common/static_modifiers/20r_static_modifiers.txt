@@ -1,0 +1,3 @@
+polish_lith_debuff = {
+	province_warscore_cost = 1
+}
