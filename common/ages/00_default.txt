@@ -298,7 +298,11 @@ age_of_discovery = {
 				on_age_ability_taken = { age = age_of_discovery }
 			}
 			allow = {
+				or = {
 				tag = VEN
+				tag = HSA
+				has_government_attribute = is_merchant_republic
+				}
 			}
 			modifier = {
 				global_ship_trade_power = 0.5
