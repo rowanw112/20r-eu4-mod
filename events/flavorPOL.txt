@@ -2682,6 +2682,10 @@ country_event = { #The Crown of Rome
 		
 		trigger = { 
 			religion = catholic 
+			thrace_area = {
+				type = all 
+				owned_by = ROOT
+			}
 		}
 		if = { 
 			limit = { 

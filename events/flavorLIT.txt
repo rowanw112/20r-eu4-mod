@@ -856,19 +856,16 @@ country_event = {
 	
 	option = {
 		name = flavor_lit.16.a 
-		
-		ai_chance = { factor = 1 } 
-		set_country_flag = lit_accepted_pu
 		279 = {	add_core = POL	cede_province = POL }
-		2962 = {	add_core = POL	cede_province = POL }
-		4539 = {	add_core = POL	cede_province = POL }
-		1937 = {	add_core = POL	cede_province = POL }
+		2962 = { add_core = POL	cede_province = POL }
+		4539 = { add_core = POL	cede_province = POL }
+		1937 = { add_core = POL	cede_province = POL }
 		268 = {	add_core = POL	cede_province = POL }
 		277 = {	add_core = POL	cede_province = POL }
-		4537 = {	add_core = POL	cede_province = POL }
+		4537 = { add_core = POL	cede_province = POL }
 		278 = {	add_core = POL	cede_province = POL }
-		1941 = {	add_core = POL	cede_province = POL }
-		4545 = {	add_core = POL	cede_province = POL }
+		1941 = { add_core = POL	cede_province = POL }
+		4545 = { add_core = POL	cede_province = POL }
 		269 = {	add_core = POL	cede_province = POL }
 		release_all_possible_countries = yes
 		291 = {	add_core = CHR remove_core = LIT cede_province = CHR }
@@ -878,6 +875,8 @@ country_event = {
 		282 = { add_core = KIE cede_province = KIE }
 		2406 = { add_core = KIE cede_province = KIE }
 		283 = { add_core = KIE cede_province = KIE }
+		ai_chance = { factor = 1 } 
+		set_country_flag = lit_accepted_pu
 		POL = { 
 			create_union = LIT 
 			country_event = { id = flavor_pol.20 }
