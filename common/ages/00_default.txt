@@ -252,8 +252,9 @@ age_of_discovery = {
 			}
 			allow = {
 				or = {
-					not = { total_development = 200 }
+					not = { total_development = 100 }
 				tag = POR
+				tag = ADU
 				}
 			}
 			modifier = {
@@ -316,7 +317,7 @@ age_of_discovery = {
 }
 
 age_of_reformation = {
-	start = 1530
+	start = 1510
 	
 	can_start = {
 		is_religion_enabled = protestant
@@ -329,10 +330,7 @@ age_of_reformation = {
 	objectives = {
 		obj_christian_convert = {
 			OR = {
-				religion = protestant
-				religion = reformed
-				religion = anglican
-				religion = hussite
+				government_rank = 3
 			}
 		}
 		
@@ -351,7 +349,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 5
+			colony = 3
 		}
 		
 		obj_force_converted = {
@@ -494,7 +492,13 @@ age_of_reformation = {
 
 		ab_spain_shock_tactics = {
 			allow = {
+				or = {
 				tag = SPA
+				tag = POR
+				tag = ADU
+				tag = CAS
+				tag = MOR
+				}
 			}
 			effect = { 
 				on_age_ability_taken = { age = age_of_reformation }
@@ -509,7 +513,14 @@ age_of_reformation = {
 		}
 		ab_mughal_artillery = {
 			allow = {
-				tag = MUG
+				or = {
+				tag = ITA
+				tag = TTS
+				tag = TUS
+				tag = PAP
+				tag = VEN
+				tag = SPI
+				}
 			}
 			effect = { 
 				on_age_ability_taken = { age = age_of_reformation }
@@ -528,10 +539,9 @@ age_of_reformation = {
 				OR = {
 					tag = PLC
 					tag = POL
-					custom_trigger_tooltip = {
-						tooltip = enable_this_ability_tt
-						has_country_flag = unlock_polish_ability_flag
-					}
+					tag = PRU
+					tag = UKR
+					tag = TEU
 				}
 			}
 			effect = { 
@@ -549,12 +559,12 @@ age_of_reformation = {
 		ab_persia_development = {
 			allow = {
 				OR = {
-					custom_trigger_tooltip = {
-						tooltip = unlocked_this_ab_tt
-						has_country_flag = enable_persian_age_ability_flag
-					}
-					tag = PER
-					tag = ERS
+
+						tag = PER
+						tag = ERS
+						tag = MUG
+					
+
 				}
 			}
 			effect = { 
@@ -576,7 +586,7 @@ age_of_reformation = {
 
 
 age_of_absolutism = {
-	start = 1620
+	start = 1610
 	
 	can_start = {
 		is_institution_enabled = global_trade

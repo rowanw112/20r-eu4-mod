@@ -1837,44 +1837,45 @@ LIT2_ideas = {
 
 PLC_ideas = {
 	start = {
-		nobles_loyalty_modifier = 0.1
-		num_accepted_cultures = 2 
+		nobles_exclusive_loyalty_modifier = 0.10
+		num_accepted_cultures = 2
 	}
 	
 	bonus = {
-		tolerance_heretic = 3
+	 	country_admin_power = 1
 	}
 	
 	trigger = {
-		tag = PLC
-		NOT = { has_country_flag = is_LPC_flag }
+		tag = POL
 	}
-	free = yes
+	free = yes		#will be added at load.
 	
-	plc_prosperous_folwarks = { #Same for all of them
-		global_trade_goods_size_modifier = 0.10
+	folwark_system = {
+		global_trade_goods_size_modifier = 0.10 # Added
 	}
-	pol_jagiellonian_university = {
-		idea_cost = -0.10
+	nihil_novi = {
+		stability_cost_modifier = -0.1
+		war_exhaustion = -0.02
 	}
-	plc_the_obrona_potoczna = { #Same for all of them
-		drill_gain_modifier = 0.25
-		army_tradition = 1
+	peichota_wybraniecka = {
+		global_manpower_modifier = 0.25
+		infantry_power = 0.1
 	}
-	winged_hussars = { 
+	winged_hussars = {
 		cavalry_power = 0.2 # was 0.3
 		can_recruit_hussars = yes
 	}
-	plc_refine_our_golden_liberty = { #Same for all of them
-		country_admin_power = 1 
+	wojsko_komputoe = {
+		global_regiment_cost = -0.10
 	}
-	pol_royal_guards = {
-		infantry_power = 0.15
-	}
-	plc_tempered_by_neighbors = { #Same for all of them
+	foreign_section = {
 		discipline = 0.05
 	}
+	focus_on_field_defences = {
+		land_morale = 0.15
+	}
 }
+
 
 PLC_LIT_ideas = {
 	start = {
@@ -3125,7 +3126,7 @@ ITA_ideas = {
 	}
 	heir_to_the_empire = {
 		prestige = 1
-		development_cost = 0.10 # added
+		legitimacy = 1 # added
 	}
 	path_to_citizenship = {
 		shock_damage_received = -0.15
