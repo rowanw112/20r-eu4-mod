@@ -20,7 +20,7 @@
     - [x] - Disabled no alliance option with -200 relations, so you can ally bordering nations that are players 
     (you still can not ally non-player nations if relations are too low) 
     - [x] - disinheriting an heir costs -30 prestige instead of -50 prestige
-    - [] - fix slackening so that it doesn't give double manpower for parliament issue and call on religious followers for islam
+    - [] - fix slackening so that it doesn't give double manpower for call on religious followers for suuni
     - [x] - change pol-lith union event so it releases eastern nations and poland annexing central lithuania.
 
 ### Religion
