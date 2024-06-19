@@ -1446,7 +1446,7 @@ expansion_ideas = {
 		modifier = {
 			factor = 10
 			OR = {
-				# has_idea_group = exploration_ideas
+				has_country_flag = ColonialDecision
 				is_colonial_nation = yes
 			}
 		}
@@ -1469,7 +1469,7 @@ expansion_ideas = {
 		}
 		modifier = {
 			factor = 0
-			# NOT = { has_idea_group = exploration_ideas }
+			NOT = { has_country_flag = ColonialDecision }
 			NOT = { is_colonial_nation = yes }
 			NOT = {
 				any_owned_province = {

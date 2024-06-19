@@ -26,7 +26,7 @@
 ### Religion
     - [x] - Allow Christians to have female defenders of faith
     - [x] - Make all Defender of faith levels have same bonuses
-    -[] - remove higher papal influence gain by having high relations with the pope
+    - [] - remove higher papal influence gain by having high relations with the pope
     - [x] - Protestant
         - [x] - Add a church power to grant 5% inf combat bonus + -2.5% shock damage received
     - [x] - Orthodox
