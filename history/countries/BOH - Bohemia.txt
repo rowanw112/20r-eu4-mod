@@ -3,6 +3,7 @@ add_government_reform = bohemian_elective_kingdom_reform
 primary_culture = czech
 religion = catholic
 capital = 266 # Praha
+elector = yes
 technology_group = western
 add_accepted_culture = sorbian
 add_army_professionalism = 0.1
