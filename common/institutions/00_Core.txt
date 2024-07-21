@@ -72,6 +72,7 @@ feudalism = {
 					culture_group = scandinavian
 					culture_group = west_slavic
 					culture_group = western_aryan
+					continent = africa # adding all of africa to have fuedalism
 					province_id = 383
 					province_id = 412
 					province_id = 2327
