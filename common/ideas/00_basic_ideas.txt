@@ -318,7 +318,7 @@ innovativeness_ideas = {
 	}
 	print_culture = {
 		global_institution_spread = 0.25
-		manpower_in_own_culture_provinces = 0.10
+		manpower_in_accepted_culture_provinces = 0.15
 	}
 	optimism = {
 		culture_conversion_cost = -0.25
