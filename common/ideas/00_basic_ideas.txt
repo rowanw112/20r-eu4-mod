@@ -1138,7 +1138,6 @@ maritime_ideas = {
 
 	bonus = {
 		sea_repair = yes
-		movement_speed_in_fleet_modifier = 1 
 	}
 
 	merchant_traditions = {
@@ -1147,11 +1146,11 @@ maritime_ideas = {
 
 	}
 	merchant_marine = {
-		global_sailors_modifier = 0.25
-		allowed_marine_fraction = 0.25
+		global_sailors_modifier = 0.2
+		allowed_marine_fraction = 0.2
 	}
 	sheltered_ports = {
-		global_ship_repair = 0.1
+		global_ship_repair = 0.05
 		sailor_maintenance_modifer = -0.2
 	}
 	grand_navy = {
@@ -1166,7 +1165,6 @@ maritime_ideas = {
 		burghers_loyalty_modifier = 0.1
 	}
 	naval_fighting_instruction = {
-		blockade_efficiency = 0.5
 		siege_blockade_progress = 1
 	}
 
