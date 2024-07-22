@@ -15409,11 +15409,11 @@ SYN_ideas = {
 
 MOR_ideas = {
 	start = {
-		naval_attrition = -0.25
+		land_morale = 0.1
 		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
-		hostile_attrition = 1
+		discipline = 0.05
 	}
 	trigger = {
 		tag = MOR
@@ -15844,7 +15844,7 @@ ADU_ideas = {
 		fire_damage_received = -0.15
 	}
 	adu_taifa_adminstration = {
-		vassal_forcelimit_bonus = 1
+		discipline = 0.05
     }
 	adu_ahl_uhl_dhimma = {
 		tolerance_heathen = 3
