@@ -950,183 +950,188 @@ economic_ideas = {
 	}
 }
 
-# exploration_ideas = {
-# 	category = DIP
-# 	important = yes
+exploration_ideas = {
+	category = DIP
+	important = yes
 
-# 	bonus = {
-# 		cb_on_primitives = yes
-# 	}
+	trigger = {
+		was_player = yes
+		was_player = no # added to make sure no one can take it
+	}
 
-# 	quest_for_the_new_world	= {
-# 		may_explore = yes
-# 		naval_attrition = -0.1
-# 	}
-# 	colonial_ventures = {
-# 		colonists = 1
-# 		effect = { remove_temporary_colonist = yes }
-# 	}
-# 	overseas_exploration = {
-# 		range = 0.5
-# 	}
-# 	land_of_opportunity = {
-# 		global_colonial_growth = 10
-# 	}
-# 	factories = {
-# 		trade_company_governing_cost = -0.1
-# 		trade_company_investment_cost = -0.1
-# 	}
-# 	free_colonies = {
-# 		colonist_placement_chance = 0.1
-# 	}
-# 	global_empire = {
-# 		naval_forcelimit_modifier = 0.25
-# 		treasure_fleet_income = 0.25
-# 	}
+	bonus = {
+		cb_on_primitives = yes
+	}
 
-# 	ai_will_do = {
-# 		factor = 1
-# 		modifier = {
-# 			factor = 0
-# 			is_colonial_nation = yes
-# 		}
-# 		modifier = {
-# 			factor = 0
-# 			is_tribal = yes
-# 		}
-# 		modifier = {
-# 			factor = 0
-# 			is_subject = yes
-# 		}		
-# 		modifier = {
-# 			factor = 0
-# 			primitives = yes
-# 		}
-# 		modifier = {
-# 			factor = 0
-# 			current_age = age_of_revolutions #too late
-# 		}
-# 		modifier = {
-# 			factor = 0
-# 			NOT = {
-# 				any_owned_province = {
-# 					has_port = yes
-# 					sea_zone = {
-# 						NOT = { area = eastern_mediterrenean_area }
-# 					}
-# 				}
-# 			}
-# 			NOT = { 
-# 				any_owned_province = { 
-# 					is_in_capital_area = yes
-# 					has_empty_adjacent_province = yes
-# 				} 
-# 			}
-# 		}
-# 		modifier = {
-# 			factor = 0.5
-# 			NOT = {
-# 				any_owned_province = {
-# 					has_port = yes
-# 					sea_zone = {
-# 						OR = {
-# 							NOT = { region = mediterrenean_region }
-# 							province_id = 1293 #Gibraltar
-# 							province_id = 1294 #Almeria
-# 						}
-# 						NOT = { area = red_sea_area }
-# 						NOT = { area = baltic_area }
-# 					}
-# 				}
-# 			}
-# 			NOT = { 
-# 				any_owned_province = { 
-# 					is_in_capital_area = yes
-# 					has_empty_adjacent_province = yes
-# 				} 
-# 			}
-# 		}
-# 		modifier = {
-# 			factor = 0.1
-# 			NOT = { num_of_ports = 3 }
-# 			NOT = { 
-# 				any_owned_province = { 
-# 					is_in_capital_area = yes
-# 					has_empty_adjacent_province = yes
-# 				}
-# 			}
-# 		}
-# 		modifier = {
-# 			factor = 0.1
-# 			NOT = { has_institution = renaissance }
-# 			NOT = { tag = POR }
-# 			NOT = { tag = CAS }
-# 		}
-# 		modifier = {
-# 			factor = 0.1
-# 			capital_scope = {
-# 				NOT = {
-# 					region = france_region
-# 					region = iberia_region
-# 					region = british_isles_region
-# 					region = low_countries_region
-# 				}
-# 			}
-# 			NOT = { technology_group = high_american }
-# 		}
-# 		modifier = {
-# 			factor = 0.5
-# 			tag = ARA
-# 		}
-# 		modifier = {
-# 			factor = 0.1
-# 			NOT = { is_year = 1490 }
-# 			capital_scope = {
-# 				NOT = {
-# 					region = iberia_region
-# 				}
-# 			}
-# 		}
-# 		modifier = {
-# 			factor = 10
-# 			technology_group = high_american
-# 		}
-# 		modifier = {
-# 			factor = 2.0
-# 			num_of_ports = 5
-# 		}
-# 		modifier = {
-# 			factor = 2.0
-# 			num_of_ports = 10
-# 		}
-# 		modifier = {
-# 			factor = 2.0
-# 			num_of_ports = 15
-# 		}
-# 		modifier = {
-# 			factor = 2.0
-# 			num_of_ports = 20
-# 		}
-# 		modifier = {
-# 			factor = 1000
-# 			OR = {
-# 				tag = POR
-# 				tag = CAS
-# 				tag = SPA
-# 			}
-# 		}
-# 		modifier = {
-# 			factor = 2
-# 			OR = {
-# 				tag = GBR
-# 				tag = NED
-# 				tag = ENG
-# 				tag = FRA
-# 				tag = KUR
-# 			}
-# 		}
-# 	}
-# }
+	quest_for_the_new_world	= {
+		may_explore = yes
+		naval_attrition = -0.1
+	}
+	colonial_ventures = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}
+	overseas_exploration = {
+		range = 0.5
+	}
+	land_of_opportunity = {
+		global_colonial_growth = 10
+	}
+	factories = {
+		trade_company_governing_cost = -0.1
+		trade_company_investment_cost = -0.1
+	}
+	free_colonies = {
+		colonist_placement_chance = 0.1
+	}
+	global_empire = {
+		naval_forcelimit_modifier = 0.25
+		treasure_fleet_income = 0.25
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			is_colonial_nation = yes
+		}
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+		}		
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			current_age = age_of_revolutions #too late
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+					sea_zone = {
+						NOT = { area = eastern_mediterrenean_area }
+					}
+				}
+			}
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				} 
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+					sea_zone = {
+						OR = {
+							NOT = { region = mediterrenean_region }
+							province_id = 1293 #Gibraltar
+							province_id = 1294 #Almeria
+						}
+						NOT = { area = red_sea_area }
+						NOT = { area = baltic_area }
+					}
+				}
+			}
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				} 
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { num_of_ports = 3 }
+			NOT = { 
+				any_owned_province = { 
+					is_in_capital_area = yes
+					has_empty_adjacent_province = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { has_institution = renaissance }
+			NOT = { tag = POR }
+			NOT = { tag = CAS }
+		}
+		modifier = {
+			factor = 0.1
+			capital_scope = {
+				NOT = {
+					region = france_region
+					region = iberia_region
+					region = british_isles_region
+					region = low_countries_region
+				}
+			}
+			NOT = { technology_group = high_american }
+		}
+		modifier = {
+			factor = 0.5
+			tag = ARA
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_year = 1490 }
+			capital_scope = {
+				NOT = {
+					region = iberia_region
+				}
+			}
+		}
+		modifier = {
+			factor = 10
+			technology_group = high_american
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 5
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 10
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 15
+		}
+		modifier = {
+			factor = 2.0
+			num_of_ports = 20
+		}
+		modifier = {
+			factor = 1000
+			OR = {
+				tag = POR
+				tag = CAS
+				tag = SPA
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = GBR
+				tag = NED
+				tag = ENG
+				tag = FRA
+				tag = KUR
+			}
+		}
+	}
+}
 
 
 maritime_ideas = {
@@ -1682,76 +1687,80 @@ influence_ideas = {
 	}
 }
 
-# naval_ideas = {
-# 	category = MIL
 
-# 	trigger = {
-# 		primitives = no
-# 	}
 
-# 	bonus = {
-# 		global_naval_barrage_cost = -1
-# 		disengagement_chance = 0.15
-# 	}
+naval_ideas = {
+	category = MIL
 
-# 	boarding_parties = {
-# 		leader_naval_shock = 1
-# 		landing_penalty = -1
-# 	}
-# 	improved_rams = {
-# 		galley_power = 0.25
-# 	}
-# 	naval_cadets = {
-# 		leader_naval_fire = 1
-# 		sunk_ship_morale_hit_recieved = -0.33
-# 	}
-# 	naval_glory = {
-# 		navy_tradition = 1
-# 		siege_blockade_progress = 1
-# 	}
-# 	press_gangs = {
-# 		sailors_recovery_speed = 0.25
-# 		allowed_marine_fraction = 0.25
-# 	}
-# 	oak_forests_for_ships = {
-# 		heavy_ship_power = 0.20
-# 		ship_durability = 0.1
-# 	}
-# 	superior_seamanship = {
-# 		naval_morale = 0.1
-# 		global_naval_engagement_modifier = 0.1
-# 	}
+	trigger = {
+		primitives = no
+		was_player = yes
+		was_player = no # added to make sure no one can take it
+	}
 
-# 	ai_will_do = {
-# 		factor = 0.45
-# 		modifier = {
-# 			factor = 0
-# 			is_tribal = yes
-# 		}
-# 		modifier = {
-# 			factor = 0
-# 			primitives = yes
-# 		}
-# 		modifier = {
-# 			factor = 0
-# 			NOT = { num_of_ports = 1 }
-# 			NOT = { is_colonial_nation = yes }
-# 		}
-# 		modifier = {
-# 			factor = 0.31
-# 			NOT = { num_of_ports = 10 }
-# 		}
-# 		modifier = {
-# 			factor = 0.31
-# 			num_of_cities = 50
-# 		}
+	bonus = {
+		global_naval_barrage_cost = -1
+		disengagement_chance = 0.15
+	}
 
-# 		modifier = {
-# 			factor = 10
-# 			has_government_attribute = is_pirate_republic_reform
-# 		}
-# 	}
-# }
+	boarding_parties = {
+		leader_naval_shock = 1
+		landing_penalty = -1
+	}
+	improved_rams = {
+		galley_power = 0.25
+	}
+	naval_cadets = {
+		leader_naval_fire = 1
+		sunk_ship_morale_hit_recieved = -0.33
+	}
+	naval_glory = {
+		navy_tradition = 1
+		siege_blockade_progress = 1
+	}
+	press_gangs = {
+		sailors_recovery_speed = 0.25
+		allowed_marine_fraction = 0.25
+	}
+	oak_forests_for_ships = {
+		heavy_ship_power = 0.20
+		ship_durability = 0.1
+	}
+	superior_seamanship = {
+		naval_morale = 0.1
+		global_naval_engagement_modifier = 0.1
+	}
+
+	ai_will_do = {
+		factor = 0.45
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+			NOT = { is_colonial_nation = yes }
+		}
+		modifier = {
+			factor = 0.31
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.31
+			num_of_cities = 50
+		}
+
+		modifier = {
+			factor = 10
+			has_government_attribute = is_pirate_republic_reform
+		}
+	}
+}
 
 court_ideas = {
 	category = DIP

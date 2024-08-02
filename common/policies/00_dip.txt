@@ -210,12 +210,12 @@ colonial_expansions = {
 
 	potential = {
 		has_idea_group = expansion_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = expansion_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}		
 
 	global_colonial_growth = 15
@@ -241,12 +241,12 @@ beneficial_neglect = {
 	monarch_power = DIP
 
 	potential = {
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 		has_idea_group = innovativeness_ideas
 	}
 	
 	allow = {
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 		full_idea_group = innovativeness_ideas
 	}
 
@@ -294,12 +294,12 @@ restrictions_for_colonies = {
 	monarch_power = DIP
 
 	potential = {
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 		has_idea_group = religious_ideas
 	}
 	
 	allow = {
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 		full_idea_group = religious_ideas
 	}
 
@@ -471,12 +471,12 @@ trade_connection_policy = {
 naval_secrecy_act = {
 	monarch_power = DIP
 	potential = {
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 		has_idea_group = defensive_ideas
 	}
 	
 	allow = {
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 		full_idea_group = defensive_ideas
 	}
 
@@ -720,12 +720,12 @@ professional_diplomatic_corps = {
 colonial_companies_act = {
 	monarch_power = DIP
 	potential = {
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 		has_idea_group = plutocracy_ideas
 	}
 	
 	allow = {
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 		full_idea_group = plutocracy_ideas
 	}
 	
@@ -828,12 +828,12 @@ native_assimilation_act = {
 	
 	potential = {
 		has_idea_group = humanist_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = humanist_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}	
 	
 	global_colonial_growth = 10
@@ -903,12 +903,12 @@ terms_of_surrender_statute = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 		has_idea_group = diplomatic_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 		full_idea_group = diplomatic_ideas
 	}	
 	
@@ -926,13 +926,13 @@ skilled_cartographers = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = maritime_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = naval_ideas
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = naval_ideas
+		full_idea_group = exploration_ideas
 	}	
 	
 	global_naval_engagement_modifier = 0.2
@@ -956,12 +956,12 @@ fortified_trading_posts = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 		has_idea_group = trade_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 		full_idea_group = trade_ideas
 	}	
 	
@@ -1041,12 +1041,12 @@ the_cooperation_act = {
 	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 		has_idea_group = influence_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 		full_idea_group = influence_ideas
 	}	
 	
@@ -1095,11 +1095,11 @@ colonial_administration_act = {
 	
 	potential = {
 		has_idea_group = administrative_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	allow = {
 		full_idea_group = administrative_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 	
 	global_colonial_growth = 10
@@ -1177,11 +1177,11 @@ the_stamp_act = {
 	
 	potential = {
 		has_idea_group = economic_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	allow = {
 		full_idea_group = economic_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 	
 	global_trade_power = 0.1
@@ -1311,13 +1311,13 @@ the_naval_supremacy_act = {
 	monarch_power = DIP
 	
 	potential = {
+		has_idea_group = naval_ideas
 		has_idea_group = maritime_ideas
-		has_idea_group = trade_ideas
 	}
 	
 	allow = {
+		full_idea_group = naval_ideas
 		full_idea_group = maritime_ideas
-		full_idea_group = trade_ideas
 	}	
 	
 	siege_blockade_progress = 1
@@ -1339,12 +1339,12 @@ letters_of_marque = {
 	
 	potential = {
 		has_idea_group = offensive_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = offensive_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 	
 	privateer_efficiency = 0.5
@@ -1394,12 +1394,12 @@ steppe_nomad_migrations_policy = {
 	
 	potential = {
 		has_idea_group = horde_gov_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = horde_gov_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 	
 	colonist_placement_chance = 0.05
@@ -1780,12 +1780,12 @@ colonial_boost_act = {
 	
 	potential = {
 		has_idea_group = infrastructure_ideas
-		has_country_flag = ColonialDecision 
+		has_idea_group = exploration_ideas 
 	}
 	
 	allow = {
 		full_idea_group = infrastructure_ideas
-		has_country_flag = ColonialDecision 
+		full_idea_group = exploration_ideas 
 	}
 	
 	colony_development_boost = 1
@@ -1941,12 +1941,12 @@ transportation_act = {
 	
 	potential = {
 		has_idea_group = mercenary_ideas
-		has_country_flag = ColonialDecision   
+		has_idea_group = exploration_ideas   
 	}
 	
 	allow = {
 		full_idea_group = mercenary_ideas
-		has_country_flag = ColonialDecision 
+		full_idea_group = exploration_ideas 
 	}
 	
 	privateer_efficiency = 0.5

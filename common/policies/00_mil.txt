@@ -215,12 +215,12 @@ superior_supply_system = {
 	
 	potential = {
 		has_idea_group = quality_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = quality_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 	
 	manpower_recovery_speed = 0.1
@@ -492,12 +492,12 @@ hired_adventurers_act = {
 	monarch_power = MIL
 	potential = {
 		has_idea_group = quantity_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = quantity_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 
 	movement_speed = 0.1
@@ -574,12 +574,12 @@ the_maritime_intelligencer_unit = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 		has_idea_group = spy_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 		full_idea_group = spy_ideas
 	}	
 	
@@ -601,12 +601,12 @@ the_nautic_education_act = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 		has_idea_group = innovativeness_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 		full_idea_group = innovativeness_ideas
 	}	
 	
@@ -632,12 +632,12 @@ zealous_captains = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 		has_idea_group = religious_ideas
 	}
 	
 	allow = {
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 		full_idea_group = religious_ideas
 	}	
 	
@@ -733,12 +733,12 @@ the_naval_inspection_act = {
 	
 	potential = {
 		has_idea_group = humanist_ideas
-		has_idea_group = maritime_ideas
+		has_idea_group = naval_ideas
 	}
 	
 	allow = {
 		full_idea_group = humanist_ideas
-		full_idea_group = maritime_ideas
+		full_idea_group = naval_ideas
 	}	
 	
 	ship_durability = 0.05
@@ -939,12 +939,12 @@ the_colonial_nobility_act = {
 	monarch_power = MIL
 	potential = {
 		has_idea_group = aristocracy_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = aristocracy_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 
 	global_manpower_modifier = 0.2
@@ -1307,12 +1307,12 @@ war_on_our_terms_policy = {
 
 	potential = {
 		has_idea_group = indigenous_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = indigenous_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 
 	discipline = 0.025
@@ -1442,12 +1442,12 @@ render_unto_caesar_policy = {
 
 	potential = {
 		has_idea_group = theocracy_gov_ideas
-		has_country_flag = ColonialDecision
+		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
 		full_idea_group = theocracy_gov_ideas
-		has_country_flag = ColonialDecision
+		full_idea_group = exploration_ideas
 	}
 
 	global_manpower_modifier = 0.1
@@ -1564,12 +1564,12 @@ naval_armament_act = {
 	
 	potential = {
 		has_idea_group = infrastructure_ideas
-		has_idea_group = maritime_ideas 
+		has_idea_group = naval_ideas 
 	}
 	
 	allow = {
 		full_idea_group = infrastructure_ideas
-		full_idea_group = maritime_ideas 
+		full_idea_group = naval_ideas 
 	}
 	
 	global_ship_recruit_speed = -0.25
@@ -1748,12 +1748,12 @@ naval_competence_act = {
 	
 	potential = {
 		has_idea_group = court_ideas
-		has_idea_group = maritime_ideas  
+		has_idea_group = naval_ideas  
 	}
 	
 	allow = {
 		full_idea_group = court_ideas
-		full_idea_group = maritime_ideas 
+		full_idea_group = naval_ideas 
 	}
 	
 	leader_naval_manuever = 1 
