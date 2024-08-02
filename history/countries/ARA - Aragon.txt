@@ -5,6 +5,7 @@ add_accepted_culture = aragonese
 add_accepted_culture = sicilian
 religion = catholic
 technology_group = western
+historical_friend = CAS
 capital = 213 # Tinto HQ
 add_army_professionalism = 0.05
 
