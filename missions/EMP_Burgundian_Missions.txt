@@ -641,9 +641,9 @@ emp_burgundy_3 = {
 			93 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			1878 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			# 1878 = {
+			# 	country_or_non_sovereign_subject_holds = ROOT
+			# }
 			2974 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
