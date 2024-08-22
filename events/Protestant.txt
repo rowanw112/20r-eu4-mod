@@ -21,11 +21,11 @@ country_event = {
 	trigger = {
 		NOT = { is_religion_enabled = protestant }
 		religion = catholic
-		is_defender_of_faith = no	
+		# is_defender_of_faith = no	
 		NOT = { has_reform = papacy_reform }
 		OR = { ## added fallback date
 			reform_desire = 1
-			is_year = 1510	## added fallback
+			is_year = 1500	## added fallback
 		}
 		capital_scope = {
 			continent = europe
@@ -59,35 +59,35 @@ country_event = {
 			factor = 0.9
 			OR = {
 				reform_desire = 1.05
-				is_year = 1511  ## added fallback
+				is_year = 1501  ## added fallback
 			}
 		}
 		modifier = {
 			factor = 0.9
 			OR = {
 				reform_desire = 1.10
-				is_year = 1512	## added fallback
+				is_year = 1502	## added fallback
 			}
 		}
 		modifier = {
 			factor = 0.9
 			OR = {
 				reform_desire = 1.15
-				is_year = 1513 	## added fallback
+				is_year = 1503 	## added fallback
 			}
 		}
 		modifier = {
 			factor = 0.9
 			OR = {
 				reform_desire = 1.20
-				is_year = 1514 ## added fallback
+				is_year = 1504 ## added fallback
 			}
 		}
 		modifier = {
 			factor = 0.9
 			OR = {
 				reform_desire = 1.25
-				is_year = 1515 ## added fallback
+				is_year = 1505 ## added fallback
 			}
 		}
 		
