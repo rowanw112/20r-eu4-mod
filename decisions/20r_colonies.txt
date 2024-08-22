@@ -89,7 +89,6 @@ AORColonialDecision = {
             }
             dip_tech = 10
         }
-        dip_tech = 10
         years_of_income = 1
     }
     effect = { # What happens when you activate the decision
