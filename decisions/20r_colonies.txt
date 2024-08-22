@@ -71,6 +71,7 @@ AORColonialDecision = {
         has_country_flag = ColonialDecision
         NOT = { has_country_flag = AORColonialDecision }
         NOT = { is_primitive = yes }
+        is_colonial_nation = no
         dip_tech = 7
     }
     allow = { # Requirements to enact
