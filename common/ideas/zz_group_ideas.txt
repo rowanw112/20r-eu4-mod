@@ -79,12 +79,13 @@ trading_city_ideas = {
 
 colonial_ideas = {
 	start = {
-		development_cost = -0.1
+		development_cost = 0.1 # was -0.1
+		governing_capacity_modifier = -0.25 # added
 		no_religion_penalty = yes
 	}
 	
 	bonus = {
-		land_morale = 0.10
+		land_morale = -0.10 # was 0.10
 	}
 	
 	trigger = {
