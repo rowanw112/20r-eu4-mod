@@ -1,0 +1,23 @@
+#4209 - Maralbexi
+owner = CHG
+controller = CHG
+culture = uyghur
+religion = sunni
+capital = "Maralbexi"
+trade_goods = wool
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = indian
+1682.1.1 = { 
+	controller = ZUN
+	add_core = ZUN
+}
+1755.1.1 = { 
+	controller = KAS
+}
+1759.1.1 = { controller = QNG add_core = QNG }
+add_core = CHG

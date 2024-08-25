@@ -1,0 +1,31 @@
+#716 - Tannu Tuva
+owner = SHY# The Oirads united much of Mongolia
+controller = SHY
+culture = khazak
+religion = tengri_pagan_reformed
+capital = "Tannu Uriankhai"
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+1543.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
+1552.1.1 = { 
+	controller = KHA
+	add_core = KHA
+	revolt = { size = 1 }
+}
+1622.1.1 = { discovered_by = RUS }
+1623.1.1 = { controller = OIR }
+1635.1.1 = { 
+	controller = ZUN
+	add_core = ZUN
+}
+1697.1.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+1709.1.1 = { discovered_by = SPA }
+add_core = SHY
