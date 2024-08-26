@@ -178,7 +178,7 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		naval_morale = 0.20
+		naval_morale = 0.15 # was 0.20
 		heavy_ship_power = 0.15
 	}
 
@@ -200,18 +200,19 @@ GBR_ideas = {
 		global_tariffs = 0.15
 	}
 	the_british_parliament = {
-		technology_cost = -0.1
+		technology_cost = -0.1 # taken from gbr_the_royal_society
 		global_unrest = -1
 		num_of_parliament_issues = 1
 	}
-	british_merchant_navy = {
-		# global_tariffs = 0.15
+	#british_merchant_navy = {
+	#	global_tariffs = 0.15
+	#}
+	gbr_the_royal_society = {
+		#technology_cost = -0.05 # moved to the_british_parliament
 		drill_gain_modifier = 0.25
 		drill_decay_modifier = -0.25
+		fire_damage = 0.1 # added from eng_redcoats
 	}
-	# gbr_the_royal_society = {
-	# 	technology_cost = -0.1
-	# }
 	reform_of_comission_buying = {
 		discipline = 0.05
 	}
