@@ -1,0 +1,11 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+#
+# Effects are fully scriptable here.
+
+
+defence_of_kent = {
+	local_attacker_dice_roll_bonus = -1
+	local_hostile_attrition = 1
+	local_defensiveness = 0.10
+}

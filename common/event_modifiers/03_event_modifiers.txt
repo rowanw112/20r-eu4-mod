@@ -15,3 +15,9 @@ Colony_decision = {
 AORColony_decision = {
 	colonists = 1
 }
+
+# defence_of_kent = {
+# 	local_attacker_dice_roll_bonus = -1
+# 	local_hostile_attrition = 1
+# 	local_defensiveness = 0.10
+# }
