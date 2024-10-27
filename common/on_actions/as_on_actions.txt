@@ -2,6 +2,9 @@
 
 # country
 on_startup = {
+	235 = {
+	add_province_triggered_modifier = defence_of_kent
+	}
 	events = {
 		as.1 # Alliance System Initialization 
 	}

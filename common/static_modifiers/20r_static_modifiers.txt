@@ -1,3 +1,9 @@
 polish_lith_debuff = {
 	province_warscore_cost = 1
 }
+
+# defence_of_kent = {
+# 	local_attacker_dice_roll_bonus = -1
+# 	local_hostile_attrition = 1
+# 	local_defensiveness = 0.10
+# }
