@@ -583,7 +583,7 @@ offensive_ideas = {
 	}
 	napoleonic_warfare = {
 		assault_fort_ability = 0.15
-		assault_fort_cost_modifier = -1
+		assault_fort_cost_modifier = -0.30
 		artillery_power = 0.1
 	}
 
